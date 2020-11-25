@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "messages": [
+      {
+        "created_at": "2020-03-10T02:28:09Z",
+        "id": 101242997,
+        "parts": [
+          {
+            "attachment": {
+              "created_at": "0001-01-01T00:00:00Z",
+              "download_url": "https://chatkit-file-service-us1.s3.amazonaws.com/6716c266-f340-4273-9ce2-e2909e831ec7/whatsapp%3A%2B573132803320/7341fed2-1732-4762-ab5f-67f57c69af98?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIH5IM7QKR7SXEPCQ%2F20200310%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200310T022809Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3Dcertificacionlaboral.pdf&X-Amz-Signature=378f27746905fadeec6b30b795fc8bd910c883e7c9132c929e6203c0a658124d",
+              "expiration": "2020-03-10T03:28:09Z",
+              "id": "7341fed2-1732-4762-ab5f-67f57c69af98",
+              "name": "certificacionlaboral.pdf",
+              "refresh_url": "https://us1.pusherplatform.io/services/chatkit/v3/6716c266-f340-4273-9ce2-e2909e831ec7/rooms/whatsapp:+573132803320/attachments/7341fed2-1732-4762-ab5f-67f57c69af98",
+              "size": 167924,
+              "updated_at": "0001-01-01T00:00:00Z"
+            },
+            "type": "application/pdf"
+          },
+          { "content": "Mateo", "type": "text/plain" }
+        ],
+        "room_id": "whatsapp:+573132803320",
+        "truncated": false,
+        "updated_at": "2020-03-10T02:28:09Z",
+        "user_id": "1018505033"
+      }
+    ]
+  },
+  "metadata": {
+    "created_at": "2020-03-10T02:28:09Z",
+    "event_type": "v1.messages_created",
+    "event_id": "b36458ea-0e03-4cb8-8c3e-cff0e58d5d8d",
+    "product": "chatkit"
+  }
+}

@@ -1,0 +1,28 @@
+.contenedorLogin {
+  text-align: center;
+  margin: 32px;
+  margin-top: 10vh;
+}
+
+.inputLogin {
+  margin: 8px 0px 8px 0px;
+  padding: 8px;
+  width: 100%;
+  max-width: 600px;
+  font-size: 16px;
+  background-color: var(--color-fondo-conversacion);
+  border: none;
+  border-radius: 8px;
+}
+
+.botonLogin {
+  background-color: var(--color-enviados);
+  color: white;
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+}

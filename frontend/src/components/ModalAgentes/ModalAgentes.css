@@ -1,0 +1,67 @@
+.modalAgentes{
+  position: fixed;
+  height: 400px;
+  width: 50%;
+  background-color: white;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 12.5%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.4);
+}
+
+.buttonClose {
+  margin-left: calc(100% - 40px);
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.closeIcon {
+  height: 20px;
+  margin: 10px;
+}
+
+.agentesContainer {
+  padding: 0;
+}
+
+.agenteContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-color: var(--color-fondo-conversacion);
+  border-style: solid;
+  border-width: 0 0px 2px 0;
+}
+
+.agenteContainer:hover {
+  background-color: var(--color-selected);;
+}
+
+.nombre {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.estadoConectado {
+  color: var(--color-enviados);
+  margin: 10px 10px 10px auto;
+}
+
+.estadoDesconectado {
+  color: #ff5924;
+  margin: 10px 10px 10px auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .modalAgentes{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+  }
+}

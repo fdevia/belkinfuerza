@@ -1,0 +1,35 @@
+:root {
+  --color-enviados: #53d769;
+  --color-recibidos: rgb(73, 143, 209);
+  --color-fondo-conversacion: rgb(233, 232, 232);
+  --color-header: rgba(220, 250, 223, 0.9);
+  --color-selected: rgb(243, 243, 243);
+  --color-letra-header: rgb(95, 95, 95);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.fullScreen {
+  height: 100vh;
+}

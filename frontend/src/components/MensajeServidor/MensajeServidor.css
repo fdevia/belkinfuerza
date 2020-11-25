@@ -1,0 +1,20 @@
+.mensajeServidor {
+  text-align: center;
+  margin: 8px auto 16px auto;
+  padding: 8px 18px 8px 18px;
+  background-color: khaki;
+  width: fit-content;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.textoServidor {
+  margin: 0;
+  color: var(--color-letra-header);
+}
+
+.fechaMensajeServidor {
+  margin: 0;
+  color: var(--color-letra-header);
+  font-size: 10px;
+}

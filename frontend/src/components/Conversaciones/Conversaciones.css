@@ -1,0 +1,10 @@
+.margenLista {
+  margin-top: 60px;
+}
+.independentScroll {
+  overflow-y: scroll;
+  height: 100vh;
+}
+.espacioEnBlanco {
+  height: 60px;
+}

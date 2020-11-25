@@ -1,0 +1,18 @@
+.fondoGris {
+  background-color: var(--color-fondo-conversacion);
+  height: 100%;
+}
+
+.contenedorBienvenida {
+  padding-top: 30vh;
+  text-align: center;
+}
+
+.logo {
+  height: 20vh;
+  margin: 10px;
+}
+
+.tituloSeleccionaAlgo {
+  text-align: center;
+}

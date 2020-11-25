@@ -1,0 +1,32 @@
+.mensajeEnviado {
+  background-color: var(--color-enviados);
+  width: fit-content;
+  max-width: 45%;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: right;
+}
+
+.agente {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.texto {
+  margin: 0;
+  line-height: 20px;
+}
+
+.fechaMensaje {
+  margin: 0;
+  font-size: 10px;
+}
+
+.imagenAdjunta {
+  width: 100%;
+}

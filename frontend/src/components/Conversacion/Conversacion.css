@@ -1,0 +1,57 @@
+.conversacion {
+  border-color: var(--color-fondo-conversacion);
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+.conversacionSeleccionada {
+  background-color: var(--color-selected);
+}
+
+.contenedorNombre {
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.tituloConversacion {
+  margin: 0;
+  max-width: calc(100% - 55px);
+  overflow: hidden;
+  height: 23px;
+}
+
+.ultimoMensaje {
+  padding-left: 20px;
+  margin: 0;
+  color: grey;
+  max-width: calc(100% - 20px);
+  overflow: hidden;
+  height: 20px;
+}
+
+.fecha {
+  font-size: 11px;
+  position: absolute;
+  margin: 10px;
+  right: 0;
+}
+
+.activa {
+  position: absolute;
+  height: 80px;
+  width: 10px;
+  background-color: var(--color-enviados);
+}
+
+.pendiente {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  background-color: var(--color-recibidos);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 10px;
+}

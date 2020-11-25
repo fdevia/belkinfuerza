@@ -1,0 +1,96 @@
+.myInput {
+  margin: 10px;
+  margin-right: 0;
+  width: calc(100% - 85px);
+  border: none;
+  background-color: rgba(255, 255, 255, 0.99) !important;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.myDisabledInput {
+  margin: 10px;
+  margin-right: 0;
+  width: calc(100% - 85px);
+  border: none;
+  background-color: lightgray !important;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.myInputContainer {
+  background-color: rgba(233, 232, 232, 0.9);
+  right: 0;
+  left: 25%;
+  padding-left: 15px;
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  right: 50px;
+}
+
+.sendButton {
+  background-color: rgba(233, 232, 232, 0.9);
+  border: none;
+  padding: 0;
+}
+
+.iconoEnviar {
+  width: 40px;
+  margin: 10px;
+}
+
+.quickSendContainer {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  position: fixed;
+  right: 0;
+  background-color: lightskyblue;
+  border-radius: 20px;
+  border: none;
+  padding: 0;
+  bottom: 0px;
+}
+
+.fondoBotonRapido {
+  height: 60px;
+  width: 60px;
+  background-color: rgba(233, 232, 232, 0.9);
+  position: fixed;
+  padding: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.quickSend {
+  height: 20px;
+  margin: 10px;
+}
+
+.contenedorMensajesRapidos {
+  background-color: rgba(233, 232, 232, 0.9);
+  width: calc(75vw - 10px);
+  position: fixed;
+  right: 0;
+  bottom: 60px;
+}
+
+.mensajeRapido {
+  color: white;
+  width: fit-content;
+  margin: 10px 10px 10px auto;
+  padding: 5px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 750px) {
+  .myInputContainer {
+    left: 0;
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "id": 101021936,
+  "senderId": "1018505033",
+  "roomId": "006556dc-e47a-4a08-a52c-83a8b6c6c05b",
+  "createdAt": "2020-01-02T13:47:02Z",
+  "updatedAt": "2020-01-02T13:47:02Z",
+  "parts": [
+    {
+      "partType": "inline",
+      "payload": { "type": "text/plain", "content": "que se le ofrece" }
+    }
+  ],
+  "userStore": {
+    "instance": {
+      "platformVersion": "v1",
+      "cluster": "us1",
+      "id": "6716c266-f340-4273-9ce2-e2909e831ec7",
+      "serviceName": "chatkit",
+      "serviceVersion": "v6",
+      "host": "us1.pusherplatform.io",
+      "logger": { "threshold": 2 },
+      "client": {
+        "options": {
+          "host": "us1.pusherplatform.io",
+          "sdkProduct": "chatkit",
+          "sdkLanguage": "chatkit-client-react",
+          "sdkVersion": "1.13.3"
+        },
+        "host": "us1.pusherplatform.io",
+        "logger": { "threshold": 2 },
+        "websocketTransport": {
+          "webSocketPath": "/ws",
+          "forcedClose": false,
+          "closedError": null,
+          "lastSentPingID": null,
+          "baseURL": "wss://us1.pusherplatform.io/ws",
+          "lastSubscriptionID": 18,
+          "subscriptions": {
+            "subscriptions": {
+              "0": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit/v6/6716c266-f340-4273-9ce2-e2909e831ec7/users"
+              },
+              "1": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_presence/v2/6716c266-f340-4273-9ce2-e2909e831ec7/users/1018505033"
+              },
+              "2": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_presence/v2/6716c266-f340-4273-9ce2-e2909e831ec7/users/1018505033/register"
+              },
+              "3": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit/v6/6716c266-f340-4273-9ce2-e2909e831ec7/users"
+              },
+              "4": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_presence/v2/6716c266-f340-4273-9ce2-e2909e831ec7/users/1018505033"
+              },
+              "5": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_presence/v2/6716c266-f340-4273-9ce2-e2909e831ec7/users/1018505033/register"
+              },
+              "6": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit/v6/6716c266-f340-4273-9ce2-e2909e831ec7/rooms/d5c42f2e-df76-49af-a145-b027c57b7140?"
+              },
+              "7": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_cursors/v2/6716c266-f340-4273-9ce2-e2909e831ec7/cursors/0/rooms/d5c42f2e-df76-49af-a145-b027c57b7140"
+              },
+              "8": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit/v6/6716c266-f340-4273-9ce2-e2909e831ec7/rooms/d5c42f2e-df76-49af-a145-b027c57b7140/memberships"
+              },
+              "9": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit/v6/6716c266-f340-4273-9ce2-e2909e831ec7/rooms/006556dc-e47a-4a08-a52c-83a8b6c6c05b?"
+              },
+              "10": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_cursors/v2/6716c266-f340-4273-9ce2-e2909e831ec7/cursors/0/rooms/006556dc-e47a-4a08-a52c-83a8b6c6c05b"
+              },
+              "11": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit/v6/6716c266-f340-4273-9ce2-e2909e831ec7/rooms/006556dc-e47a-4a08-a52c-83a8b6c6c05b/memberships"
+              },
+              "12": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit/v6/6716c266-f340-4273-9ce2-e2909e831ec7/rooms/6486f6ac-9471-426b-8c4e-0b254732481b?"
+              },
+              "13": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_cursors/v2/6716c266-f340-4273-9ce2-e2909e831ec7/cursors/0/rooms/6486f6ac-9471-426b-8c4e-0b254732481b"
+              },
+              "14": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit/v6/6716c266-f340-4273-9ce2-e2909e831ec7/rooms/6486f6ac-9471-426b-8c4e-0b254732481b/memberships"
+              },
+              "15": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_presence/v2/6716c266-f340-4273-9ce2-e2909e831ec7/users/whatsapp%3A%2B573132803320"
+              },
+              "16": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_presence/v2/6716c266-f340-4273-9ce2-e2909e831ec7/users/whatsapp%3A%2B573208478097"
+              },
+              "17": {
+                "headers": {
+                  "X-SDK-Language": "chatkit-client-react",
+                  "X-SDK-Platform": "web",
+                  "X-SDK-Product": "chatkit",
+                  "X-SDK-Version": "1.13.3",
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M"
+                },
+                "listeners": {},
+                "path": "/services/chatkit_presence/v2/6716c266-f340-4273-9ce2-e2909e831ec7/users/whatsapp%3A%2B573106187268"
+              }
+            }
+          },
+          "pendingSubscriptions": { "subscriptions": {} },
+          "socket": {},
+          "pingInterval": 9,
+          "lastMessageReceivedTimestamp": 1577973023931
+        },
+        "httpTransport": { "baseURL": "https://us1.pusherplatform.io" },
+        "sdkProduct": "chatkit",
+        "sdkVersion": "1.13.3",
+        "sdkLanguage": "chatkit-client-react",
+        "sdkPlatform": "web"
+      },
+      "tokenProvider": {
+        "url": "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/6716c266-f340-4273-9ce2-e2909e831ec7/token",
+        "cachedToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzgwNTkyMTQsImlhdCI6MTU3Nzk3MjgxNCwiaW5zdGFuY2UiOiI2NzE2YzI2Ni1mMzQwLTQyNzMtOWNlMi1lMjkwOWU4MzFlYzciLCJpc3MiOiJhcGlfa2V5cy82ZDI2YmM3NS0xNDk2LTRhMTctYjAyYy1hMjFiMTJkNGQ4MTEiLCJzdWIiOiIxMDE4NTA1MDMzIn0.BTwJO5A_VX5G7Yz_jpHTXXjqjbwpvLsSAuIAm9EyI-M",
+        "cacheExpiresAt": 1578059213,
+        "userId": "1018505033"
+      }
+    },
+    "presenceStore": {
+      "1018505033": "online",
+      "whatsapp:+573208478097": "offline",
+      "whatsapp:+573132803320": "offline",
+      "whatsapp:+573106187268": "offline"
+    },
+    "onSetHooks": [null],
+    "users": {
+      "1018505033": {
+        "createdAt": "2019-12-30T14:57:53Z",
+        "id": "1018505033",
+        "name": "Mateo",
+        "updatedAt": "2019-12-30T14:57:53Z"
+      },
+      "whatsapp:+573132803320": {
+        "createdAt": "2020-01-02T01:32:17Z",
+        "id": "whatsapp:+573132803320",
+        "name": "Mateo",
+        "updatedAt": "2020-01-02T01:32:17Z"
+      },
+      "whatsapp:+573208478097": {
+        "createdAt": "2020-01-02T01:32:06Z",
+        "id": "whatsapp:+573208478097",
+        "name": "Consuelo",
+        "updatedAt": "2020-01-02T01:32:06Z"
+      },
+      "whatsapp:+573106187268": {
+        "createdAt": "2020-01-02T02:17:32Z",
+        "id": "whatsapp:+573106187268",
+        "name": "Federico",
+        "updatedAt": "2020-01-02T02:17:32Z"
+      }
+    }
+  },
+  "roomStore": {
+    "rooms": {
+      "d5c42f2e-df76-49af-a145-b027c57b7140": {
+        "createdAt": "2020-01-02T02:17:53Z",
+        "createdByUserId": "whatsapp:+573106187268",
+        "id": "d5c42f2e-df76-49af-a145-b027c57b7140",
+        "isPrivate": false,
+        "name": "whatsapp:+573106187268",
+        "updatedAt": "2020-01-02T02:17:53Z",
+        "unreadCount": 1,
+        "lastMessageAt": "2020-01-02T02:23:15Z",
+        "userIds": ["1018505033", "whatsapp:+573106187268"],
+        "mensajes": [
+          {
+            "id": 101021091,
+            "senderId": "1018505033",
+            "roomId": "d5c42f2e-df76-49af-a145-b027c57b7140",
+            "createdAt": "2020-01-02T02:23:15Z",
+            "updatedAt": "2020-01-02T02:23:15Z",
+            "parts": [
+              {
+                "partType": "inline",
+                "payload": { "type": "text/plain", "content": "Hola Federico" }
+              }
+            ],
+            "recibido": false
+          }
+        ]
+      },
+      "006556dc-e47a-4a08-a52c-83a8b6c6c05b": {
+        "createdAt": "2020-01-02T01:37:10Z",
+        "createdByUserId": "whatsapp:+573132803320",
+        "id": "006556dc-e47a-4a08-a52c-83a8b6c6c05b",
+        "isPrivate": false,
+        "name": "whatsapp:+573132803320",
+        "updatedAt": "2020-01-02T01:37:10Z",
+        "unreadCount": 2,
+        "lastMessageAt": "2020-01-02T13:47:02Z",
+        "userIds": ["1018505033", "whatsapp:+573132803320"],
+        "mensajes": [
+          {
+            "id": 101021039,
+            "senderId": "1018505033",
+            "roomId": "006556dc-e47a-4a08-a52c-83a8b6c6c05b",
+            "createdAt": "2020-01-02T01:37:27Z",
+            "updatedAt": "2020-01-02T01:37:27Z",
+            "parts": [
+              {
+                "partType": "inline",
+                "payload": { "type": "text/plain", "content": "Hola Mateo" }
+              }
+            ],
+            "recibido": false
+          },
+          null
+        ]
+      },
+      "6486f6ac-9471-426b-8c4e-0b254732481b": {
+        "createdAt": "2020-01-02T01:35:13Z",
+        "createdByUserId": "whatsapp:+573208478097",
+        "id": "6486f6ac-9471-426b-8c4e-0b254732481b",
+        "isPrivate": false,
+        "name": "whatsapp:+573208478097",
+        "updatedAt": "2020-01-02T01:35:13Z",
+        "unreadCount": 1,
+        "lastMessageAt": "2020-01-02T01:36:21Z",
+        "userIds": ["1018505033", "whatsapp:+573208478097"],
+        "mensajes": [
+          {
+            "id": 101021035,
+            "senderId": "1018505033",
+            "roomId": "6486f6ac-9471-426b-8c4e-0b254732481b",
+            "createdAt": "2020-01-02T01:36:21Z",
+            "updatedAt": "2020-01-02T01:36:21Z",
+            "parts": [
+              {
+                "partType": "inline",
+                "payload": { "type": "text/plain", "content": "Hola Consuelo" }
+              }
+            ],
+            "recibido": false
+          }
+        ]
+      }
+    }
+  },
+  "recibido": false
+}

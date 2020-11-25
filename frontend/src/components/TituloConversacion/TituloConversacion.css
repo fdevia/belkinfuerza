@@ -1,0 +1,124 @@
+.fondoBlanco {
+  background-color: var(--color-header);
+  top: 0px;
+  vertical-align: middle;
+  height: 60px;
+}
+
+.contenedorTitulo {
+  position: fixed;
+  right: 0;
+  left: 25%;
+}
+
+.backButton {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.backArrow {
+  height: 20px;
+  margin: 22px 20px 18px 20px;
+}
+
+.title {
+  margin: auto 0px auto 0px;
+  color: var(--color-letra-header);
+  max-width: calc(100vw - 230px);
+  overflow: hidden;
+  height: 32px;
+}
+
+.botonAcabarConversacion {
+  background-color: transparent;
+  padding: 5px 15px 5px 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+  border: solid 1px;
+  border-radius: 15px;
+  color: grey;
+  border-color: grey;
+}
+.botonAcabarConversacion:hover {
+  background-color: #ff5924;
+  color: white;
+  border-color: #ff5924;
+}
+
+.opcionesButton {
+  background-color: transparent;
+  border: 0px;
+  margin: 10px 5px 10px 0px;
+}
+
+.opcionesConversacion {
+  height: 20px;
+}
+
+.menuConv {
+  width: 200px;
+  background-color: white;
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.menuTitleConv {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.menuTitleConv:hover {
+  background-color: var(--color-selected);
+}
+
+.menuTitleConvEsperando {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px 5px 0px 0px;
+  color: grey;
+  font-style: italic;
+}
+
+#terminarConv:hover {
+  background-color: #ff5924;
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.inputfile {
+  display: none;
+}
+
+@media only screen and (max-width: 790px) {
+  .botonAcabarConversacion {
+    padding: 5px 5px 5px 5px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .contenedorTitulo {
+    left: 0;
+  }
+
+  .botonAcabarConversacion {
+    padding: 5px 10px 5px 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    height: 24px;
+  }
+
+  .backArrow {
+    margin: 6px 5px 4px 5px;
+  }
+}

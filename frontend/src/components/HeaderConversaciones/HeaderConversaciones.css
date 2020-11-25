@@ -1,0 +1,85 @@
+.contenedor {
+  height: 60px;
+  background-color: var(--color-header);
+  border-color: var(--color-fondo-conversacion);
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  position: fixed;
+  right: 75%;
+  left: 0;
+  z-index: 1;
+}
+
+.logoEmpresa {
+  height: 40px;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.optionsButton {
+  background-color: transparent;
+  border: 0px;
+  margin: 17px;
+}
+
+.optionsIcon {
+  height: 20px;
+}
+
+.menu {
+  width: 150px;
+  background-color: white;
+  position: fixed;
+  top: 50px;
+  left: calc(25% - 170px);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.4);
+}
+
+.menuTitle {
+  padding: 10px;
+}
+
+.menuTitle:hover {
+  background-color: var(--color-selected);
+}
+
+.contenedorBuscar {
+  height: 60px;
+  width: calc(100% + 1px);
+  margin: 0;
+  background-color: var(--color-header);
+  border-color: var(--color-fondo-conversacion);
+  border-style: solid;
+  border-width: 0 1px 0 0;
+}
+
+.inputBuscar {
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin: 10px;
+  width: calc(100% - 70px);
+}
+
+.lupa {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.lupaIcon {
+  height: 40px;
+}
+
+@media only screen and (max-width: 750px) {
+  .contenedor {
+    right: 0;
+  }
+
+  .menu {
+    left: calc(100% - 170px);
+  }
+}
