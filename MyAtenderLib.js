@@ -291,6 +291,7 @@ let MyAtender = () => {
               /*currentResponse = "https://appstogoecommerce.herokuapp.com/";*/
               /*currentResponse = "https://form.jotformeu.com/93195970337366";*/
               break;
+              /*
             case 5:
               sessionqueue.push(palabras[0]);
               console.log(numtelusr + " " + palabras[0]);
@@ -353,7 +354,8 @@ let MyAtender = () => {
                 console.log(e);
               }
               break;
-            case 6:
+              */
+            case 5:
               switch (bandera) {
                 case "MX":
                   currentResponse = "https://www.linksys.com/mx/support/";
@@ -376,32 +378,32 @@ let MyAtender = () => {
               }
   
               break;
+            case 6:
+              switch (bandera) {
+                case "MX":
+                  currentResponse = "https://form.jotformz.com/93186536587674";
+                  break;
+                case "CL":
+                  currentResponse = "https://form.jotformz.com/93186536587674";
+                  break;
+                case "CO":
+                  currentResponse = "https://form.jotformz.com/93186536587674";
+                  break;
+                case "GT":
+                  currentResponse = "https://form.jotformz.com/93186536587674";
+                  break;
+                case "CR":
+                  currentResponse = "https://form.jotformz.com/93186536587674";
+                  break;
+                case "PA":
+                  currentResponse = "https://form.jotformz.com/93186536587674";
+                  break;
+              }
+  
+              break;
             case 7:
               switch (bandera) {
                 case "MX":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CL":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CO":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "GT":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CR":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "PA":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-              }
-  
-              break;
-            case 8:
-              switch (bandera) {
-                case "MX":
                   currentResponse = "https://form.jotform.com/202775700733050";
                   break;
                 case "CL":
@@ -420,8 +422,7 @@ let MyAtender = () => {
                   currentResponse = "https://form.jotform.com/202775700733050";
                   break;
               }
-  
-              break;
+               break;
             default:
               currentResponse = mainMenu;
               //currenResponse = "Lo siento opcion no reconocida";
