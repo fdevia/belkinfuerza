@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.c7ad1fb6.chunk.css",
-    "main.js": "/static/js/main.4e323842.chunk.js",
-    "main.js.map": "/static/js/main.4e323842.chunk.js.map",
+    "main.js": "/static/js/main.7d650699.chunk.js",
+    "main.js.map": "/static/js/main.7d650699.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6290e5e0.js",
     "runtime-main.js.map": "/static/js/runtime-main.6290e5e0.js.map",
-    "static/js/2.9566244e.chunk.js": "/static/js/2.9566244e.chunk.js",
-    "static/js/2.9566244e.chunk.js.map": "/static/js/2.9566244e.chunk.js.map",
+    "static/js/2.4e0a25ba.chunk.js": "/static/js/2.4e0a25ba.chunk.js",
+    "static/js/2.4e0a25ba.chunk.js.map": "/static/js/2.4e0a25ba.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.c7ad1fb6.chunk.css.map": "/static/css/main.c7ad1fb6.chunk.css.map",
-    "static/js/2.9566244e.chunk.js.LICENSE.txt": "/static/js/2.9566244e.chunk.js.LICENSE.txt",
+    "static/js/2.4e0a25ba.chunk.js.LICENSE.txt": "/static/js/2.4e0a25ba.chunk.js.LICENSE.txt",
     "static/media/ChatCenterLogo.2fd93857.svg": "/static/media/ChatCenterLogo.2fd93857.svg",
     "static/media/backArrow.06af44e7.svg": "/static/media/backArrow.06af44e7.svg",
     "static/media/close.da5c4222.svg": "/static/media/close.da5c4222.svg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6290e5e0.js",
-    "static/js/2.9566244e.chunk.js",
+    "static/js/2.4e0a25ba.chunk.js",
     "static/css/main.c7ad1fb6.chunk.css",
-    "static/js/main.4e323842.chunk.js"
+    "static/js/main.7d650699.chunk.js"
   ]
 }

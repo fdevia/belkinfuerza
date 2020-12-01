@@ -129,26 +129,22 @@ let MyAtender = () => {
       String.fromCodePoint(0x1f4cd) +
       "\n" +
       String.fromCodePoint(0xe21f) +
-      " - Ultimas Tecnologias Linksys" +
+      " - Ultimas Tecnologías Linksys" +
       String.fromCodePoint(0x1f4c4) +
       //String.fromCodePoint(0x1f50d) +
       //String.fromCodePoint(0x1f5e3) +
       "\n" +
       String.fromCodePoint(0xe220) +
-      " - Comunicarme Operadora " +
-      String.fromCodePoint(0x1f935) +
-      "\n" +
-      String.fromCodePoint(0xe221) +
-      " - Soporte Tecnico " +
+      " - Soporte Técnico " +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f6e0) +
       "\n" +
-      String.fromCodePoint(0xe222) +
-      " - Proteccion de Precios " +
+      String.fromCodePoint(0xe221) +
+      " - Protección de Precios " +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f4dd) +
       "\n" +
-      String.fromCodePoint(0xe223) +
+      String.fromCodePoint(0xe222) +
       " - Capacitación / Eventos " +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f393);
@@ -199,7 +195,7 @@ let MyAtender = () => {
       "\n" +
       "     " +
       String.fromCodePoint(0xe21d) +
-      " - Sistemas Wifi mesh" +
+      " - Sistemas Wifi Mesh" +
       "\n" +
       "     " +
       String.fromCodePoint(0xe21e) +
@@ -215,7 +211,7 @@ let MyAtender = () => {
       "\n" +
       "     " +
       String.fromCodePoint(0xe221) +
-      " - Menu Anterior";
+      " - Menú Anterior";
       switch (sessionqueue.length) {
         case 0: //sessionqueue.length
           switch (parseInt(palabras[0])) {
