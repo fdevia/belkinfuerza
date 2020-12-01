@@ -275,12 +275,16 @@ let MyAtender = () => {
               await myGupshupLib.sendMessageToUser(
                 "file",
                 "na",
-                "917834811114",
+                "573046636936",
                 numtelusrGupshup,
                 /*"573004654173",*/
+                /*
                 "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
                 "My Caption",
-                "Sampleq.pdf"
+                "Sampleq.pdf"*/
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1606492454/WhatsAppImage2020-11-27_lhmv0a.jpg",
+                "Linksys News",
+                "Linksys News.jpg"
               );
               await myMongoLib.postConversacionEmptyQueue(numtelusr);
               currentResponse = "*Archivo enviado*";
