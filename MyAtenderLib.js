@@ -112,7 +112,7 @@ let MyAtender = () => {
         ) +
       " " +
       "\n" +
-      "*Escribe el numero de la opción deseada*" +
+      "*Escribe el número de la opción deseada*" +
       "\n\n" +
       String.fromCodePoint(0xe21c) +
       " - Buscar por Tipo Producto " +
@@ -140,7 +140,7 @@ let MyAtender = () => {
       String.fromCodePoint(0x1f6e0) +
       "\n" +
       String.fromCodePoint(0xe221) +
-      " - Protección de Precios " +
+      " - Precio especial " +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f4dd) +
       "\n" +
@@ -199,7 +199,7 @@ let MyAtender = () => {
       "\n" +
       "     " +
       String.fromCodePoint(0xe21e) +
-      " - Repetidor/Extensors" +
+      " - Repetidor/Extensor" +
       "\n" +
       "     " +
       String.fromCodePoint(0xe21f) +
@@ -211,6 +211,10 @@ let MyAtender = () => {
       "\n" +
       "     " +
       String.fromCodePoint(0xe221) +
+      " - Access Point" +
+      "\n" +
+      "     " +
+      String.fromCodePoint(0xe222) +
       " - Menú Anterior";
       switch (sessionqueue.length) {
         case 0: //sessionqueue.length
@@ -591,7 +595,35 @@ let MyAtender = () => {
                       break;
                   }
                   break;
-                case "6":
+                  case "6":
+                    switch (bandera) {
+                      case "MX":
+                        currentResponse =
+                          "https://www.linksys.com/mx/c/conmutadores-de-red";
+                        break;
+                      case "CL":
+                        currentResponse =
+                          "https://www.linksys.com/cl/c/conmutadores-de-red";
+                        break;
+                      case "CO":
+                        currentResponse =
+                          "https://www.linksys.com/co/c/conmutadores-de-red";
+                        break;
+                      case "GT":
+                        currentResponse =
+                          "https://www.linksys.com/gt/c/conmutadores-de-red";
+                        break;
+                      case "CR":
+                        currentResponse =
+                          "https://www.linksys.com/cr/c/conmutadores-de-red";
+                        break;
+                      case "PA":
+                        currentResponse =
+                          "https://www.linksys.com/pa/c/conmutadores-de-red";
+                        break;
+                    }
+                    break;
+                case "7":
                   currentResponse = mainMenu;
                   try {
                     await myMongoLib.postConversacionEmptyQueue(numtelusr);
