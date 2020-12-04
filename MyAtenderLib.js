@@ -115,27 +115,33 @@ let MyAtender = () => {
       "*Escribe el número de la opción deseada*" +
       "\n\n" +
       String.fromCodePoint(0xe21c) +
-      " - Buscar por Tipo Producto " +
+      " - Buscar por tipo de producto " +
       //String.fromCodePoint(0x1f6d2) +
       String.fromCodePoint(0x1f50d) +
       "\n" +
       String.fromCodePoint(0xe21d) +
-      " - Ayuda conseguir equipo Ideal " +
+      " - Ayuda conseguir equipo ideal " +
       String.fromCodePoint(0x1f64b) +
       //String.fromCodePoint(0x1f4c4)
       "\n" +
       String.fromCodePoint(0xe21e) +
-      " - Donde Comprar " +
+      " - Ficha Tecnica " +
+      String.fromCodePoint(0x1f64b) +
+      //String.fromCodePoint(0x1f4c4)
+      "\n" +
+      
+      String.fromCodePoint(0xe21f) +
+      " - Donde comprar " +
       String.fromCodePoint(0x1f4cd) +
       "\n" +
-      String.fromCodePoint(0xe21f) +
-      " - Ultimas Tecnologías Linksys" +
+      String.fromCodePoint(0xe219) +
+      " - Ultimas tecnologías Linksys" +
       String.fromCodePoint(0x1f4c4) +
       //String.fromCodePoint(0x1f50d) +
       //String.fromCodePoint(0x1f5e3) +
       "\n" +
       String.fromCodePoint(0xe220) +
-      " - Soporte Técnico " +
+      " - Soporte técnico " +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f6e0) +
       "\n" +
