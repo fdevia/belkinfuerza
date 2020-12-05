@@ -684,7 +684,8 @@ let MyAtender = () => {
                 "573046636936",
                 numtelusrGupshup,
                 //"573004654173",
-                cloudinary.image("linksysfichas/" + palabras[0] + ".pdf"),
+                /*cloudinary.image("linksysfichas/" + palabras[0] + ".pdf"),*/
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607186387/linksysfichas/EA6100.pdf",
                 /*"https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/" +*/
                 palabras[0] + ".pdf",
                 palabras[0],
