@@ -666,7 +666,7 @@ let MyAtender = () => {
             }
             break;
           case 3:
-            if (doesFileExist("https://demo.twilio.com/owl.png")) {
+            if (doesFileExist("https://demo.twilio.com/owl.ppng")) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
               //"https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
               //"https://demo.twilio.com/owl.png"
