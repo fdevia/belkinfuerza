@@ -665,7 +665,7 @@ let MyAtender = () => {
             break;
           case 3:
             currentResponse =
-              "ok " + urlExistSync("https://demo.twilio.com/owl.ppng");
+              "ok " + urlExistSync("https://demo.twilio.com/owl.png");
             /*
             if (doesFileExist("https://demo.twilio.com/owl.ppng")) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
