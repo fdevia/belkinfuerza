@@ -681,9 +681,11 @@ let MyAtender = () => {
                 "573046636936",
                 numtelusrGupshup,
                 //"573004654173",
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg",
-                "My Caption",
-                "Sampleq.jpg"
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/" +
+                  palabras[0] +
+                  ".jpg",
+                palabras[0],
+                palabras[0] + "jpg"
               );
 
               //await myGupshupLib.sendMessageToUser(
@@ -695,7 +697,6 @@ let MyAtender = () => {
               //  "My Caption",
               //  "Sampleq.pdf"
               //);
-
               //await myGupshupLib.sendMessageToUser(
               //  "file",
               //  "na",
@@ -723,7 +724,7 @@ let MyAtender = () => {
               currentResponse = "*Archivo enviado*";
             } else {
               currentResponse =
-                "Número de parte no encontrada, intente de nuevo opcion 3" +
+                "Número de parte no encontrado, intente de nuevo opcion 3" +
                 "\n" +
                 mainMenu;
               console.log(currentResponse);
