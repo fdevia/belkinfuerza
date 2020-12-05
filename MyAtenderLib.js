@@ -1,6 +1,7 @@
 const MyMongoLib = require("./MyMongoLib");
 const myMongoLib = MyMongoLib();
 const urlExistSync = require("url-exist-sync");
+const cloudinary = require("cloudinary");
 
 //const MyTwilioLib = require("./MyTwilioLib");
 //const myTwilioLib = MyTwilioLib();
@@ -659,11 +660,13 @@ let MyAtender = () => {
                 "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg"
               );*/
             if (
+              cloudinary.image("linksysfichas/" + palabras[0] + ".pdf")
+              /*
               urlExistSync(
                 "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/" +
                   palabras[0] +
                   ".jpg"
-              )
+              )*/
             ) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
               //"https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
@@ -681,11 +684,11 @@ let MyAtender = () => {
                 "573046636936",
                 numtelusrGupshup,
                 //"573004654173",
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/" +
-                  palabras[0] +
-                  ".jpg",
+                cloudinary.image("linksysfichas/" + palabras[0] + ".pdf"),
+                /*"https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/" +*/
+                palabras[0] + ".pdf",
                 palabras[0],
-                palabras[0] + ".jpg"
+                palabras[0] + ".pdf"
               );
 
               //await myGupshupLib.sendMessageToUser(
