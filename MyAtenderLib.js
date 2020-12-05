@@ -148,8 +148,8 @@ let MyAtender = () => {
       " - Soporte técnico" +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f393);
-      
-   /* let mainMenu =
+
+    /* let mainMenu =
       "Bienvenido a *Keralty*" +
       " " +
       pais +
@@ -176,7 +176,7 @@ let MyAtender = () => {
       " - Contactar Operador " +
       String.fromCodePoint(0x1f4de);
     */
-      mainMenu = "Hola " + newName + "\n" + mainMenu;
+    mainMenu = "Hola " + newName + "\n" + mainMenu;
     //mainMenu = newName;
     let palabras = newmessage.split(" ");
     let currentResponse = "";
@@ -216,28 +216,28 @@ let MyAtender = () => {
       "     " +
       String.fromCodePoint(0xe222) +
       " - Menú Anterior";
-      switch (sessionqueue.length) {
-        case 0: //sessionqueue.length
-          switch (parseInt(palabras[0])) {
-            case 1:
-              sessionqueue.push(palabras[0]);
-              try {
-                await myMongoLib.postConversacionSessionQueue(
-                  numtelusr,
-                  sessionqueue
-                );
-              } catch (e) {
-                console.log(e);
-              }
-              //console.log("llego");
-              //https://form.jotform.com/200147101262033
-              //currentResponse = "https://form.jotform.com/200147101262033";
-              //currentResponse = "https://form.jotformz.com/93186700022651";
-              currentResponse = subMenuOpcion1;
-              break;
-            case 2:
-              currentResponse = "https://configurador.ecoweb.com.mx";
-              /*
+    switch (sessionqueue.length) {
+      case 0: //sessionqueue.length
+        switch (parseInt(palabras[0])) {
+          case 1:
+            sessionqueue.push(palabras[0]);
+            try {
+              await myMongoLib.postConversacionSessionQueue(
+                numtelusr,
+                sessionqueue
+              );
+            } catch (e) {
+              console.log(e);
+            }
+            //console.log("llego");
+            //https://form.jotform.com/200147101262033
+            //currentResponse = "https://form.jotform.com/200147101262033";
+            //currentResponse = "https://form.jotformz.com/93186700022651";
+            currentResponse = subMenuOpcion1;
+            break;
+          case 2:
+            currentResponse = "https://configurador.ecoweb.com.mx";
+            /*
               sessionqueue.push(palabras[0]);
               //console.log("ingreso 2");
               //res.send(userphonenumber);
@@ -251,51 +251,51 @@ let MyAtender = () => {
               }
               currentResponse = "*Digita Numero de Cedula :* ";
               */
-              break;
-            case 3:
-              await myGupshupLib.sendMessageToUser(
-                "file",
-                "na",
-                "573046636936",
-                numtelusrGupshup,
-                /*"573004654173",*/
-                /*
+            break;
+          case 3:
+            await myGupshupLib.sendMessageToUser(
+              "file",
+              "na",
+              "573046636936",
+              numtelusrGupshup,
+              /*"573004654173",*/
+              /*
                 "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
                 "My Caption",
                 "Sampleq.pdf"*/
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1606492454/WhatsAppImage2020-11-27_lhmv0a.jpg",
-                "Linksys News",
-                "Linksys News.jpg"
-              );
-              await myMongoLib.postConversacionEmptyQueue(numtelusr);
-              currentResponse = "*Archivo enviado*";
-              /*currentResponse = "https://appstogoecommerce.herokuapp.com/";*/
-              /*currentResponse = "https://form.jotformeu.com/93195970337366";*/
-              break;
-            case 4:
-              switch (bandera) {
-                case "MX":
-                  currentResponse = "https://form.jotform.com/202775700733050";
-                  break;
-                case "CL":
-                  currentResponse = "https://form.jotform.com/202775700733050";
-                  break;
-                case "CO":
-                  currentResponse = "https://form.jotform.com/202775700733050";
-                  break;
-                case "GT":
-                  currentResponse = "https://form.jotform.com/202775700733050";
-                  break;
-                case "CR":
-                  currentResponse = "https://form.jotform.com/202775700733050";
-                  break;
-                case "PA":
-                  currentResponse = "https://form.jotform.com/202775700733050";
-                  break;
-              }
-              break;
-              
-              /*
+              "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1606492454/WhatsAppImage2020-11-27_lhmv0a.jpg",
+              "Linksys News",
+              "Linksys News.jpg"
+            );
+            await myMongoLib.postConversacionEmptyQueue(numtelusr);
+            currentResponse = "*Archivo enviado*";
+            /*currentResponse = "https://appstogoecommerce.herokuapp.com/";*/
+            /*currentResponse = "https://form.jotformeu.com/93195970337366";*/
+            break;
+          case 4:
+            switch (bandera) {
+              case "MX":
+                currentResponse = "https://form.jotform.com/202775700733050";
+                break;
+              case "CL":
+                currentResponse = "https://form.jotform.com/202775700733050";
+                break;
+              case "CO":
+                currentResponse = "https://form.jotform.com/202775700733050";
+                break;
+              case "GT":
+                currentResponse = "https://form.jotform.com/202775700733050";
+                break;
+              case "CR":
+                currentResponse = "https://form.jotform.com/202775700733050";
+                break;
+              case "PA":
+                currentResponse = "https://form.jotform.com/202775700733050";
+                break;
+            }
+            break;
+
+          /*
             case 5:
               sessionqueue.push(palabras[0]);
               console.log(numtelusr + " " + palabras[0]);
@@ -359,78 +359,78 @@ let MyAtender = () => {
               }
               break;
               */
-            case 5:
-              switch (bandera) {
-                case "MX":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CL":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CO":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "GT":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CR":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "PA":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-              }
-              break;
-            case 6:
-                            await myGupshupLib.sendMessageToUser(
-                "file",
-                "na",
-                "573046636936",
-                numtelusrGupshup,
-                /*"573004654173",*/
-                /*
+          case 5:
+            switch (bandera) {
+              case "MX":
+                currentResponse = "https://form.jotformz.com/93186536587674";
+                break;
+              case "CL":
+                currentResponse = "https://form.jotformz.com/93186536587674";
+                break;
+              case "CO":
+                currentResponse = "https://form.jotformz.com/93186536587674";
+                break;
+              case "GT":
+                currentResponse = "https://form.jotformz.com/93186536587674";
+                break;
+              case "CR":
+                currentResponse = "https://form.jotformz.com/93186536587674";
+                break;
+              case "PA":
+                currentResponse = "https://form.jotformz.com/93186536587674";
+                break;
+            }
+            break;
+          case 6:
+            await myGupshupLib.sendMessageToUser(
+              "file",
+              "na",
+              "573046636936",
+              numtelusrGupshup,
+              /*"573004654173",*/
+              /*
                 "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
                 "My Caption",
                 "Sampleq.pdf"*/
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1606492454/WhatsAppImage2020-11-27_lhmv0a.jpg",
-                "Linksys News",
-                "Linksys News.jpg"
-              );
-              await myMongoLib.postConversacionEmptyQueue(numtelusr);
-              currentResponse = "*Archivo enviado*";
-              /*currentResponse = "https://appstogoecommerce.herokuapp.com/";*/
-              /*currentResponse = "https://form.jotformeu.com/93195970337366";*/
-              break;
-            case 7:
-              switch (bandera) {
-                case "MX":
-                  currentResponse = "https://www.linksys.com/mx/support/";
-                  break;
-                case "CL":
-                  currentResponse = "https://www.linksys.com/cl/support/";
-                  break;
-                case "CO":
-                  currentResponse = "https://www.linksys.com/co/support/";
-                  break;
-                case "GT":
-                  currentResponse = "https://www.linksys.com/gt/support/";
-                  break;
-                case "CR":
-                  currentResponse = "https://www.linksys.com/cr/support/";
-                  break;
-                case "PA":
-                  currentResponse = "https://www.linksys.com/pa/support/";
-                  break;
-              }
-              break;
-            default:
-              currentResponse = mainMenu;
-              //currenResponse = "Lo siento opcion no reconocida";
+              "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1606492454/WhatsAppImage2020-11-27_lhmv0a.jpg",
+              "Linksys News",
+              "Linksys News.jpg"
+            );
+            await myMongoLib.postConversacionEmptyQueue(numtelusr);
+            currentResponse = "*Archivo enviado*";
+            /*currentResponse = "https://appstogoecommerce.herokuapp.com/";*/
+            /*currentResponse = "https://form.jotformeu.com/93195970337366";*/
             break;
-          }
-          break;
-        case 1: //sessionqueue.length
-          /*
+          case 7:
+            switch (bandera) {
+              case "MX":
+                currentResponse = "https://www.linksys.com/mx/support/";
+                break;
+              case "CL":
+                currentResponse = "https://www.linksys.com/cl/support/";
+                break;
+              case "CO":
+                currentResponse = "https://www.linksys.com/co/support/";
+                break;
+              case "GT":
+                currentResponse = "https://www.linksys.com/gt/support/";
+                break;
+              case "CR":
+                currentResponse = "https://www.linksys.com/cr/support/";
+                break;
+              case "PA":
+                currentResponse = "https://www.linksys.com/pa/support/";
+                break;
+            }
+            break;
+          default:
+            currentResponse = mainMenu;
+            //currenResponse = "Lo siento opcion no reconocida";
+            break;
+        }
+        break;
+      case 1: //sessionqueue.length
+        /*
           switch (parseInt(sessionqueue[0])) {
             case 1:
               switch (palabras[0]) {
@@ -445,272 +445,270 @@ let MyAtender = () => {
               break;
           }
           */
-          switch (parseInt(sessionqueue[0])) {
-            case 1:
-              /*currentResponse =
+        switch (parseInt(sessionqueue[0])) {
+          case 1:
+            /*currentResponse =
                 "https://configurador.ecoweb.com.mx" + palabras[0] + " w ";*/
-  
-              switch (palabras[0]) {
-                case "1":
-                  switch (bandera) {
-                    case "MX":
-                      currentResponse =
-                        "https://www.linksys.com/mx/c/routers-inalambricos";
-                      break;
-                    case "CL":
-                      currentResponse =
-                        "https://www.linksys.com/cl/c/routers-inalambricos";
-                      break;
-                    case "CO":
-                      currentResponse =
-                        "https://www.linksys.com/co/c/routers-inalambricos";
-                      break;
-                    case "GT":
-                      currentResponse =
-                        "https://www.linksys.com/gt/c/routers-inalambricos";
-                      break;
-                    case "CR":
-                      currentResponse =
-                        "https://www.linksys.com/cr/c/routers-inalambricos";
-                      break;
-                    case "PA":
-                      currentResponse =
-                        "https://www.linksys.com/pa/c/routers-inalambricos";
-                      break;
-                  }
-                  break;
-                case "2":
-                  switch (bandera) {
-                    case "MX":
-                      currentResponse =
-                        "https://www.linksys.com/mx/c/sistema-wi-fi-de-malla";
-                      break;
-                    case "CL":
-                      currentResponse =
-                        "https://www.linksys.com/cl/c/sistema-wi-fi-de-malla";
-                      break;
-                    case "CO":
-                      currentResponse =
-                        "https://www.linksys.com/co/c/sistema-wi-fi-de-malla";
-                      break;
-                    case "GT":
-                      currentResponse =
-                        "https://www.linksys.com/gt/c/sistema-wi-fi-de-malla";
-                      break;
-                    case "CR":
-                      currentResponse =
-                        "https://www.linksys.com/cr/c/sistema-wi-fi-de-malla";
-                      break;
-                    case "PA":
-                      currentResponse =
-                        "https://www.linksys.com/pa/c/sistema-wi-fi-de-malla";
-                      break;
-                  }
-                  break;
-                case "3":
-                  switch (bandera) {
-                    case "MX":
-                      currentResponse =
-                        "https://www.linksys.com/mx/c/extensor-de-alcance";
-                      break;
-                    case "CL":
-                      currentResponse =
-                        "https://www.linksys.com/cl/c/extensor-de-alcance";
-                      break;
-                    case "CO":
-                      currentResponse =
-                        "https://www.linksys.com/co/c/extensor-de-alcance";
-                      break;
-                    case "GT":
-                      currentResponse =
-                        "https://www.linksys.com/gt/c/extensor-de-alcance";
-                      break;
-                    case "CR":
-                      currentResponse =
-                        "https://www.linksys.com/cr/c/extensor-de-alcance";
-                      break;
-                    case "PA":
-                      currentResponse =
-                        "https://www.linksys.com/pa/c/extensor-de-alcance";
-                      break;
-                  }
-                  break;
-                case "4":
-                  switch (bandera) {
-                    case "MX":
-                      currentResponse =
-                        "https://www.linksys.com/mx/c/adaptadores-de-red-usb-inalambricos";
-                      break;
-                    case "CL":
-                      currentResponse =
-                        "https://www.linksys.com/cl/c/adaptadores-de-red-usb-inalambricos";
-                      break;
-                    case "CO":
-                      currentResponse =
-                        "https://www.linksys.com/co/c/adaptadores-de-red-usb-inalambricos";
-                      break;
-                    case "GT":
-                      currentResponse =
-                        "https://www.linksys.com/gt/c/adaptadores-de-red-usb-inalambricos";
-                      break;
-                    case "CR":
-                      currentResponse =
-                        "https://www.linksys.com/cr/c/adaptadores-de-red-usb-inalambricos";
-                      break;
-                    case "PA":
-                      currentResponse =
-                        "https://www.linksys.com/pa/c/adaptadores-de-red-usb-inalambricos";
-                      break;
-                  }
-                  break;
-                case "5":
-                  switch (bandera) {
-                    case "MX":
-                      currentResponse =
-                        "https://www.linksys.com/mx/c/conmutadores-de-red";
-                      break;
-                    case "CL":
-                      currentResponse =
-                        "https://www.linksys.com/cl/c/conmutadores-de-red";
-                      break;
-                    case "CO":
-                      currentResponse =
-                        "https://www.linksys.com/co/c/conmutadores-de-red";
-                      break;
-                    case "GT":
-                      currentResponse =
-                        "https://www.linksys.com/gt/c/conmutadores-de-red";
-                      break;
-                    case "CR":
-                      currentResponse =
-                        "https://www.linksys.com/cr/c/conmutadores-de-red";
-                      break;
-                    case "PA":
-                      currentResponse =
-                        "https://www.linksys.com/pa/c/conmutadores-de-red";
-                      break;
-                  }
-                  break;
-                  case "6":
-                    switch (bandera) {
-                      case "MX":
-                        currentResponse =
-                          "https://www.linksys.com/mx/c/conmutadores-de-red";
-                        break;
-                      case "CL":
-                        currentResponse =
-                          "https://www.linksys.com/cl/c/conmutadores-de-red";
-                        break;
-                      case "CO":
-                        currentResponse =
-                          "https://www.linksys.com/co/c/conmutadores-de-red";
-                        break;
-                      case "GT":
-                        currentResponse =
-                          "https://www.linksys.com/gt/c/conmutadores-de-red";
-                        break;
-                      case "CR":
-                        currentResponse =
-                          "https://www.linksys.com/cr/c/conmutadores-de-red";
-                        break;
-                      case "PA":
-                        currentResponse =
-                          "https://www.linksys.com/pa/c/conmutadores-de-red";
-                        break;
-                    }
+
+            switch (palabras[0]) {
+              case "1":
+                switch (bandera) {
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/routers-inalambricos";
                     break;
-                case "7":
-                  currentResponse = mainMenu;
-                  try {
-                    await myMongoLib.postConversacionEmptyQueue(numtelusr);
-                  } catch (e) {
-                    console.log(e);
-                  }
-                  break;
-                default:
-                  currentResponse = mainMenu;
-                  try {
-                    await myMongoLib.postConversacionEmptyQueue(numtelusr);
-                  } catch (e) {
-                    console.log(e);
-                  }
-                  break;
-              }
-              break;
-            /*
-            case 2:
-              if (palabras[0] === "19431215") {
-                //urlFileToSend = "https://demo.twilio.com/owl.png";
-                //"https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-                //"https://demo.twilio.com/owl.png"
-                //urlFileToSend =
-                //  "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1576969975/ocoboNCI000002_sbbhwg.pdf";
-                //
-                //urlFileToSend =
-                //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf";
-  
-                //try {
-                await myGupshupLib.sendMessageToUser(
-                  "file",
-                  "na",
-                  "917834811114",
-                  numtelusrGupshup,
-                  //"573004654173",
-                  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
-                  "My Caption",
-                  "Sampleq.pdf"
-                );
-  
-                //await myGupshupLib.sendMessageToUser(
-                //  "file",
-                //  "na",
-                //  "917834811114",
-                //  "573004654173",
-                //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
-                //  "My Caption",
-                //  "Sampleq.pdf"
-                //);
-  
-                //await myGupshupLib.sendMessageToUser(
-                //  "file",
-                //  "na",
-                //  "917384811114",
-                //  "573004654173",
-                //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
-                //  "My Titulo",
-                //  "sample01.pdf"
-                //);
-  
-                //  await myGupshupLib.sendMessageToUser(
-                //    "file",
-                //    "na",
-                //    "917384811114",
-                //    "573004654173",
-                //    urlFileToSend,
-                //    "Factura",
-                //    "sample01.pdf"
-                //  );
-  
-                await myMongoLib.postConversacionEmptyQueue(numtelusr);
-                //} catch (e) {
-                //  console.log(e);
-                //}
-                currentResponse = "*Archivo enviado*";
-              } else {
-                currentResponse =
-                  "Cedula no encontrada, intente de nuevo opcion 2" +
-                  "\n" +
-                  mainMenu;
-                console.log(currentResponse);
+                  case "CL":
+                    currentResponse =
+                      "https://www.linksys.com/cl/c/routers-inalambricos";
+                    break;
+                  case "CO":
+                    currentResponse =
+                      "https://www.linksys.com/co/c/routers-inalambricos";
+                    break;
+                  case "GT":
+                    currentResponse =
+                      "https://www.linksys.com/gt/c/routers-inalambricos";
+                    break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/routers-inalambricos";
+                    break;
+                  case "PA":
+                    currentResponse =
+                      "https://www.linksys.com/pa/c/routers-inalambricos";
+                    break;
+                }
+                break;
+              case "2":
+                switch (bandera) {
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "CL":
+                    currentResponse =
+                      "https://www.linksys.com/cl/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "CO":
+                    currentResponse =
+                      "https://www.linksys.com/co/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "GT":
+                    currentResponse =
+                      "https://www.linksys.com/gt/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "PA":
+                    currentResponse =
+                      "https://www.linksys.com/pa/c/sistema-wi-fi-de-malla";
+                    break;
+                }
+                break;
+              case "3":
+                switch (bandera) {
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/extensor-de-alcance";
+                    break;
+                  case "CL":
+                    currentResponse =
+                      "https://www.linksys.com/cl/c/extensor-de-alcance";
+                    break;
+                  case "CO":
+                    currentResponse =
+                      "https://www.linksys.com/co/c/extensor-de-alcance";
+                    break;
+                  case "GT":
+                    currentResponse =
+                      "https://www.linksys.com/gt/c/extensor-de-alcance";
+                    break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/extensor-de-alcance";
+                    break;
+                  case "PA":
+                    currentResponse =
+                      "https://www.linksys.com/pa/c/extensor-de-alcance";
+                    break;
+                }
+                break;
+              case "4":
+                switch (bandera) {
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "CL":
+                    currentResponse =
+                      "https://www.linksys.com/cl/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "CO":
+                    currentResponse =
+                      "https://www.linksys.com/co/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "GT":
+                    currentResponse =
+                      "https://www.linksys.com/gt/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "PA":
+                    currentResponse =
+                      "https://www.linksys.com/pa/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                }
+                break;
+              case "5":
+                switch (bandera) {
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/conmutadores-de-red";
+                    break;
+                  case "CL":
+                    currentResponse =
+                      "https://www.linksys.com/cl/c/conmutadores-de-red";
+                    break;
+                  case "CO":
+                    currentResponse =
+                      "https://www.linksys.com/co/c/conmutadores-de-red";
+                    break;
+                  case "GT":
+                    currentResponse =
+                      "https://www.linksys.com/gt/c/conmutadores-de-red";
+                    break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/conmutadores-de-red";
+                    break;
+                  case "PA":
+                    currentResponse =
+                      "https://www.linksys.com/pa/c/conmutadores-de-red";
+                    break;
+                }
+                break;
+              case "6":
+                switch (bandera) {
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/conmutadores-de-red";
+                    break;
+                  case "CL":
+                    currentResponse =
+                      "https://www.linksys.com/cl/c/conmutadores-de-red";
+                    break;
+                  case "CO":
+                    currentResponse =
+                      "https://www.linksys.com/co/c/conmutadores-de-red";
+                    break;
+                  case "GT":
+                    currentResponse =
+                      "https://www.linksys.com/gt/c/conmutadores-de-red";
+                    break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/conmutadores-de-red";
+                    break;
+                  case "PA":
+                    currentResponse =
+                      "https://www.linksys.com/pa/c/conmutadores-de-red";
+                    break;
+                }
+                break;
+              case "7":
+                currentResponse = mainMenu;
                 try {
                   await myMongoLib.postConversacionEmptyQueue(numtelusr);
                 } catch (e) {
                   console.log(e);
                 }
+                break;
+              default:
+                currentResponse = mainMenu;
+                try {
+                  await myMongoLib.postConversacionEmptyQueue(numtelusr);
+                } catch (e) {
+                  console.log(e);
+                }
+                break;
+            }
+            break;
+          case 3:
+            if (palabras[0] === "19431215") {
+              //urlFileToSend = "https://demo.twilio.com/owl.png";
+              //"https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+              //"https://demo.twilio.com/owl.png"
+              //urlFileToSend =
+              //  "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1576969975/ocoboNCI000002_sbbhwg.pdf";
+              //
+              //urlFileToSend =
+              //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf";
+
+              //try {
+              await myGupshupLib.sendMessageToUser(
+                "file",
+                "na",
+                "573046636936",
+                numtelusrGupshup,
+                //"573004654173",
+                "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
+                "My Caption",
+                "Sampleq.pdf"
+              );
+
+              //await myGupshupLib.sendMessageToUser(
+              //  "file",
+              //  "na",
+              //  "917834811114",
+              //  "573004654173",
+              //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
+              //  "My Caption",
+              //  "Sampleq.pdf"
+              //);
+
+              //await myGupshupLib.sendMessageToUser(
+              //  "file",
+              //  "na",
+              //  "917384811114",
+              //  "573004654173",
+              //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
+              //  "My Titulo",
+              //  "sample01.pdf"
+              //);
+
+              //  await myGupshupLib.sendMessageToUser(
+              //    "file",
+              //    "na",
+              //    "917384811114",
+              //    "573004654173",
+              //    urlFileToSend,
+              //    "Factura",
+              //    "sample01.pdf"
+              //  );
+
+              await myMongoLib.postConversacionEmptyQueue(numtelusr);
+              //} catch (e) {
+              //  console.log(e);
+              //}
+              currentResponse = "*Archivo enviado*";
+            } else {
+              currentResponse =
+                "Cedula no encontrada, intente de nuevo opcion 2" +
+                "\n" +
+                mainMenu;
+              console.log(currentResponse);
+              try {
+                await myMongoLib.postConversacionEmptyQueue(numtelusr);
+              } catch (e) {
+                console.log(e);
               }
-              break;
-              */
-            /*
+            }
+            break;
+          /*
             case 5:
               console.log("heare 01" + numtelusr);
               fetch(
@@ -762,11 +760,11 @@ let MyAtender = () => {
               //currentResponse = "Le estamos comunicando con un operador";
               break;
               */
-            default:
-              currentResponse = currentResponse + " default " + mainMenu;
-              break;
-          }
-      }
+          default:
+            currentResponse = currentResponse + " default " + mainMenu;
+            break;
+        }
+    }
     return currentResponse;
   };
   return myExports;
