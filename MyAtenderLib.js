@@ -68,9 +68,9 @@ const doesFileExist = (urlToFile) => {
   xhr.send();
 
   if (xhr.status == "404") {
-    return false;
+    return "404 false";
   } else {
-    return true;
+    return "404 true";
   }
 };
 
