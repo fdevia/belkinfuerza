@@ -665,7 +665,10 @@ let MyAtender = () => {
             break;
           case 3:
             currentResponse =
-              "ok " + urlExistSync("https://demo.twilio.com/owl.png");
+              "ok " +
+              urlExistSync(
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg"
+              );
             /*
             if (doesFileExist("https://demo.twilio.com/owl.ppng")) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
