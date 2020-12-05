@@ -62,18 +62,16 @@ let mainMenu =
   String.fromCodePoint(0x1f935);
 */
 
-const doesFileExist = (urlToFile) => {
-  return "fff";
-  /*
+const doesFileExist = async (urlToFile) => {
   var xhr = new XMLHttpRequest();
   xhr.open("HEAD", urlToFile, false);
   xhr.send();
 
   if (xhr.status == "404") {
-    return "404 false";
+    return false;
   } else {
-    return "404 true";
-  }*/
+    return true;
+  }
 };
 
 let MyAtender = () => {
