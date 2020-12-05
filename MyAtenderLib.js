@@ -660,7 +660,9 @@ let MyAtender = () => {
               );*/
             if (
               urlExistSync(
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg"
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/" +
+                  palabras[0] +
+                  ".jpg"
               )
             ) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
@@ -681,7 +683,7 @@ let MyAtender = () => {
                 //"573004654173",
                 "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg",
                 "My Caption",
-                "Sampleq.pdf"
+                "Sampleq.jpg"
               );
 
               //await myGupshupLib.sendMessageToUser(
