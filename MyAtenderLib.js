@@ -1,5 +1,6 @@
 const MyMongoLib = require("./MyMongoLib");
 const myMongoLib = MyMongoLib();
+const urlExistSync = require("url-exist-sync");
 
 //const MyTwilioLib = require("./MyTwilioLib");
 //const myTwilioLib = MyTwilioLib();
@@ -664,7 +665,7 @@ let MyAtender = () => {
             break;
           case 3:
             currentResponse =
-              "ok " + doesFileExist("https://demo.twilio.com/owl.ppng");
+              "ok " + urlExistSync("https://demo.twilio.com/owl.ppng");
             /*
             if (doesFileExist("https://demo.twilio.com/owl.ppng")) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
