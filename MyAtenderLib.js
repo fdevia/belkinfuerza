@@ -62,6 +62,18 @@ let mainMenu =
   String.fromCodePoint(0x1f935);
 */
 
+const doesFileExist = (urlToFile) => {
+  var xhr = new XMLHttpRequest();
+  xhr.open("HEAD", urlToFile, false);
+  xhr.send();
+
+  if (xhr.status == "404") {
+    return false;
+  } else {
+    return true;
+  }
+};
+
 let MyAtender = () => {
   let myExports = this || {};
   myExports.atender = async (
@@ -654,7 +666,7 @@ let MyAtender = () => {
             }
             break;
           case 3:
-            if (palabras[0] === "19431215") {
+            if (doesFileExist("https://demo.twilio.com/owl.png")) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
               //"https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
               //"https://demo.twilio.com/owl.png"
@@ -713,7 +725,7 @@ let MyAtender = () => {
               currentResponse = "*Archivo enviado*";
             } else {
               currentResponse =
-                "Cedula no encontrada, intente de nuevo opcion 2" +
+                "Número de parte no encontrada, intente de nuevo opcion 3" +
                 "\n" +
                 mainMenu;
               console.log(currentResponse);
