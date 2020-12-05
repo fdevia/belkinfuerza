@@ -63,18 +63,6 @@ let mainMenu =
   String.fromCodePoint(0x1f935);
 */
 
-const doesFileExist = async (urlToFile) => {
-  var xhr = new XMLHttpRequest();
-  xhr.open("HEAD", urlToFile, false);
-  xhr.send();
-
-  if (xhr.status == "404") {
-    return false;
-  } else {
-    return true;
-  }
-};
-
 let MyAtender = () => {
   let myExports = this || {};
   myExports.atender = async (
@@ -664,13 +652,17 @@ let MyAtender = () => {
             }
             break;
           case 3:
+            /*
             currentResponse =
               "ok " +
               urlExistSync(
                 "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg"
-              );
-            /*
-            if (doesFileExist("https://demo.twilio.com/owl.ppng")) {
+              );*/
+            if (
+              urlExistSync(
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg"
+              )
+            ) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
               //"https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
               //"https://demo.twilio.com/owl.png"
@@ -687,7 +679,7 @@ let MyAtender = () => {
                 "573046636936",
                 numtelusrGupshup,
                 //"573004654173",
-                "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg",
                 "My Caption",
                 "Sampleq.pdf"
               );
@@ -738,7 +730,7 @@ let MyAtender = () => {
               } catch (e) {
                 console.log(e);
               }
-            }*/
+            }
             break;
           /*
             case 5:
