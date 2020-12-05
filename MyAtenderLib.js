@@ -475,9 +475,6 @@ let MyAtender = () => {
           */
         switch (parseInt(sessionqueue[0])) {
           case 1:
-            /*currentResponse =
-                "https://configurador.ecoweb.com.mx" + palabras[0] + " w ";*/
-
             switch (palabras[0]) {
               case "1":
                 switch (bandera) {
@@ -666,6 +663,8 @@ let MyAtender = () => {
             }
             break;
           case 3:
+            currentResponse = "ok";
+            /*
             if (doesFileExist("https://demo.twilio.com/owl.ppng")) {
               //urlFileToSend = "https://demo.twilio.com/owl.png";
               //"https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
@@ -734,7 +733,7 @@ let MyAtender = () => {
               } catch (e) {
                 console.log(e);
               }
-            }
+            }*/
             break;
           /*
             case 5:
