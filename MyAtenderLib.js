@@ -63,6 +63,8 @@ let mainMenu =
 */
 
 const doesFileExist = (urlToFile) => {
+  return "fff";
+  /*
   var xhr = new XMLHttpRequest();
   xhr.open("HEAD", urlToFile, false);
   xhr.send();
@@ -71,7 +73,7 @@ const doesFileExist = (urlToFile) => {
     return "404 false";
   } else {
     return "404 true";
-  }
+  }*/
 };
 
 let MyAtender = () => {
