@@ -253,28 +253,6 @@ let MyAtender = () => {
               */
               break;
             case 3:
-              switch (bandera) {
-                case "MX":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CL":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CO":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "GT":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CR":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "PA":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-              }
-              break;
-            case 4:
               await myGupshupLib.sendMessageToUser(
                 "file",
                 "na",
@@ -294,6 +272,29 @@ let MyAtender = () => {
               /*currentResponse = "https://appstogoecommerce.herokuapp.com/";*/
               /*currentResponse = "https://form.jotformeu.com/93195970337366";*/
               break;
+            case 4:
+              switch (bandera) {
+                case "MX":
+                  currentResponse = "https://form.jotform.com/202775700733050";
+                  break;
+                case "CL":
+                  currentResponse = "https://form.jotform.com/202775700733050";
+                  break;
+                case "CO":
+                  currentResponse = "https://form.jotform.com/202775700733050";
+                  break;
+                case "GT":
+                  currentResponse = "https://form.jotform.com/202775700733050";
+                  break;
+                case "CR":
+                  currentResponse = "https://form.jotform.com/202775700733050";
+                  break;
+                case "PA":
+                  currentResponse = "https://form.jotform.com/202775700733050";
+                  break;
+              }
+              break;
+              
               /*
             case 5:
               sessionqueue.push(palabras[0]);
@@ -381,26 +382,24 @@ let MyAtender = () => {
               }
               break;
             case 6:
-              switch (bandera) {
-                case "MX":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CL":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CO":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "GT":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "CR":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-                case "PA":
-                  currentResponse = "https://form.jotformz.com/93186536587674";
-                  break;
-              }
+                            await myGupshupLib.sendMessageToUser(
+                "file",
+                "na",
+                "573046636936",
+                numtelusrGupshup,
+                /*"573004654173",*/
+                /*
+                "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
+                "My Caption",
+                "Sampleq.pdf"*/
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1606492454/WhatsAppImage2020-11-27_lhmv0a.jpg",
+                "Linksys News",
+                "Linksys News.jpg"
+              );
+              await myMongoLib.postConversacionEmptyQueue(numtelusr);
+              currentResponse = "*Archivo enviado*";
+              /*currentResponse = "https://appstogoecommerce.herokuapp.com/";*/
+              /*currentResponse = "https://form.jotformeu.com/93195970337366";*/
               break;
             case 7:
               switch (bandera) {
