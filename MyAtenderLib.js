@@ -130,7 +130,7 @@ let MyAtender = () => {
       //String.fromCodePoint(0x1f4c4)
       "\n" +
       String.fromCodePoint(0xe21f) +
-      " - Calendario de eventos / Webinar" +
+      " - Calendario de eventos / Webinar " +
       String.fromCodePoint(0x1f4cd) +
       "\n" +
       String.fromCodePoint(0xe220) +
@@ -140,16 +140,11 @@ let MyAtender = () => {
       //String.fromCodePoint(0x1f5e3) +
       "\n" +
       String.fromCodePoint(0xe221) +
-      " - Ultimas Ultimas tecnologias Linksystecnologias Linksys Linksys" +
+      " - Ultimas Tecnologías Linksys" +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f6e0) +
       "\n" +
       String.fromCodePoint(0xe222) +
-      " - Precio especial " +
-      //String.fromCodePoint(0x1f4de);
-      String.fromCodePoint(0x1f4dd) +
-      "\n" +
-      String.fromCodePoint(0xe223) +
       " - Soporte técnico" +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f393);
