@@ -255,25 +255,24 @@ let MyAtender = () => {
             case 3:
               switch (bandera) {
                 case "MX":
-                  currentResponse = "https://www.linksys.com/mx/wheretobuy";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "CL":
-                  currentResponse = "https://www.linksys.com/cl/wheretobuy";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "CO":
-                  currentResponse = "https://www.linksys.com/co/wheretobuy";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "GT":
-                  currentResponse = "https://www.linksys.com/gt/wheretobuy";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "CR":
-                  currentResponse = "https://www.linksys.com/cr/wheretobuy";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "PA":
-                  currentResponse = "https://www.linksys.com/pa/wheretobuy";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
               }
-              /*currentResponse = "https://form.jotformz.com/93186536587674";*/
               break;
             case 4:
               await myGupshupLib.sendMessageToUser(
@@ -362,25 +361,24 @@ let MyAtender = () => {
             case 5:
               switch (bandera) {
                 case "MX":
-                  currentResponse = "https://www.linksys.com/mx/support/";
+                  currentResponse = "https://form.jotform.com/202775700733050";
                   break;
                 case "CL":
-                  currentResponse = "https://www.linksys.com/cl/support/";
+                  currentResponse = "https://form.jotform.com/202775700733050";
                   break;
                 case "CO":
-                  currentResponse = "https://www.linksys.com/co/support/";
+                  currentResponse = "https://form.jotform.com/202775700733050";
                   break;
                 case "GT":
-                  currentResponse = "https://www.linksys.com/gt/support/";
+                  currentResponse = "https://form.jotform.com/202775700733050";
                   break;
                 case "CR":
-                  currentResponse = "https://www.linksys.com/cr/support/";
+                  currentResponse = "https://form.jotform.com/202775700733050";
                   break;
                 case "PA":
-                  currentResponse = "https://www.linksys.com/pa/support/";
+                  currentResponse = "https://form.jotform.com/202775700733050";
                   break;
               }
-  
               break;
             case 6:
               switch (bandera) {
@@ -403,30 +401,29 @@ let MyAtender = () => {
                   currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
               }
-  
               break;
             case 7:
               switch (bandera) {
                 case "MX":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://www.linksys.com/mx/support/";
                   break;
                 case "CL":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://www.linksys.com/cl/support/";
                   break;
                 case "CO":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://www.linksys.com/co/support/";
                   break;
                 case "GT":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://www.linksys.com/gt/support/";
                   break;
                 case "CR":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://www.linksys.com/cr/support/";
                   break;
                 case "PA":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://www.linksys.com/pa/support/";
                   break;
               }
-               break;
+              break;
             default:
               currentResponse = mainMenu;
               //currenResponse = "Lo siento opcion no reconocida";
