@@ -685,7 +685,7 @@ let MyAtender = () => {
                   palabras[0] +
                   ".jpg",
                 palabras[0],
-                palabras[0] + "jpg"
+                palabras[0] + ".jpg"
               );
 
               //await myGupshupLib.sendMessageToUser(
