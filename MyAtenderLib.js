@@ -660,7 +660,7 @@ let MyAtender = () => {
               );*/
             if (
               urlExistSync(
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksys/" +
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksysfichas/" +
                   palabras[0] +
                   ".pdf"
               )
@@ -681,7 +681,7 @@ let MyAtender = () => {
                 "573046636936",
                 numtelusrGupshup,
                 //"573004654173",
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksys/" +
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksysfichas/" +
                   palabras[0] +
                   ".pdf",
                 palabras[0],
