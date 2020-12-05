@@ -361,22 +361,22 @@ let MyAtender = () => {
             case 5:
               switch (bandera) {
                 case "MX":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "CL":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "CO":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "GT":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "CR":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
                 case "PA":
-                  currentResponse = "https://form.jotform.com/202775700733050";
+                  currentResponse = "https://form.jotformz.com/93186536587674";
                   break;
               }
               break;
@@ -427,7 +427,7 @@ let MyAtender = () => {
             default:
               currentResponse = mainMenu;
               //currenResponse = "Lo siento opcion no reconocida";
-              break;
+            break;
           }
           break;
         case 1: //sessionqueue.length
