@@ -135,7 +135,7 @@ let MyAtender = () => {
       String.fromCodePoint(0x1f4cd) +
       "\n" +
       String.fromCodePoint(0xe220) +
-      " - Precio especial" +
+      " - Precio especial/Reserva de Oportunidad" +
       String.fromCodePoint(0x1f4c4) +
       //String.fromCodePoint(0x1f50d) +
       //String.fromCodePoint(0x1f5e3) +
