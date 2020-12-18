@@ -399,24 +399,29 @@ let MyAtender = () => {
             }
             break;
           case 6:
-            await myGupshupLib.sendMessageToUser(
-              "file",
-              "na",
-              "573046636936",
-              numtelusrGupshup,
-              /*"573004654173",*/
-              /*
-                "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
-                "My Caption",
-                "Sampleq.pdf"*/
-              "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1606492454/WhatsAppImage2020-11-27_lhmv0a.jpg",
-              "Linksys News",
-              "Linksys News.jpg"
-            );
-            await myMongoLib.postConversacionEmptyQueue(numtelusr);
-            currentResponse = "*Archivo enviado*";
-            /*currentResponse = "https://appstogoecommerce.herokuapp.com/";*/
-            /*currentResponse = "https://form.jotformeu.com/93195970337366";*/
+            if (
+              urlExistSync(
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksysfichas/Solucion_Mesh_Linksys.pdf"
+              )
+            ) {
+              await myGupshupLib.sendMessageToUser(
+                "file",
+                "na",
+                "573046636936",
+                numtelusrGupshup,
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksysfichas/Solucion_Mesh_Linksys.pdf"
+              );
+              await myMongoLib.postConversacionEmptyQueue(numtelusr);
+              currentResponse = "*Documento enviado*";
+            } else {
+              currentResponse = "Documento no Encontrado " + "\n" + mainMenu;
+              console.log(currentResponse);
+              try {
+                await myMongoLib.postConversacionEmptyQueue(numtelusr);
+              } catch (e) {
+                console.log(e);
+              }
+            }
             break;
           case 7:
             switch (bandera) {
@@ -652,12 +657,6 @@ let MyAtender = () => {
             }
             break;
           case 3:
-            /*
-            currentResponse =
-              "ok " +
-              urlExistSync(
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1607124920/linksys/19431215b.jpg"
-              );*/
             if (
               urlExistSync(
                 "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksysfichas/" +
@@ -665,62 +664,18 @@ let MyAtender = () => {
                   ".pdf"
               )
             ) {
-              //urlFileToSend = "https://demo.twilio.com/owl.png";
-              //"https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
-              //"https://demo.twilio.com/owl.png"
-              //urlFileToSend =
-              //  "https://res.cloudinary.com/https-tracktogo-co/image/upload/v1576969975/ocoboNCI000002_sbbhwg.pdf";
-              //
-              //urlFileToSend =
-              //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf";
-
-              //try {
               await myGupshupLib.sendMessageToUser(
                 "file",
                 "na",
                 "573046636936",
                 numtelusrGupshup,
-                //"573004654173",
                 "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksysfichas/" +
                   palabras[0] +
                   ".pdf",
                 palabras[0],
                 palabras[0] + ".pdf"
               );
-
-              //await myGupshupLib.sendMessageToUser(
-              //  "file",
-              //  "na",
-              //  "917834811114",
-              //  "573004654173",
-              //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
-              //  "My Caption",
-              //  "Sampleq.pdf"
-              //);
-              //await myGupshupLib.sendMessageToUser(
-              //  "file",
-              //  "na",
-              //  "917384811114",
-              //  "573004654173",
-              //  "https://www.buildquickbots.com/whatsapp/media/sample/pdf/sample01.pdf",
-              //  "My Titulo",
-              //  "sample01.pdf"
-              //);
-
-              //  await myGupshupLib.sendMessageToUser(
-              //    "file",
-              //    "na",
-              //    "917384811114",
-              //    "573004654173",
-              //    urlFileToSend,
-              //    "Factura",
-              //    "sample01.pdf"
-              //  );
-
               await myMongoLib.postConversacionEmptyQueue(numtelusr);
-              //} catch (e) {
-              //  console.log(e);
-              //}
               currentResponse = "*Archivo enviado*";
             } else {
               currentResponse =
@@ -735,58 +690,6 @@ let MyAtender = () => {
               }
             }
             break;
-          /*
-            case 5:
-              console.log("heare 01" + numtelusr);
-              fetch(
-                "https://my-chat-kit.herokuapp.com/newMessageFrom/" + numtelusr,
-                { method: "POST" }
-              );
-              console.log("heare 02");
-  
-              let conversacion = await myMongoLib.getConversacion(numtelusr);
-  
-              let messageId = v1();
-              console.log("heare 03");
-              await myMongoLib.postConversacionMensaje(
-                messageId + "5Open",
-                numtelusr,
-                newmessage,
-                myMongoLib.fuentes.USUARIO,
-                conversacion.currentagent
-              );
-              console.log("heare 04");
-              await myMongoLib.postAgenteMensaje(
-                messageId + "5Open",
-                numtelusr,
-                newmessage,
-                myMongoLib.fuentes.USUARIO,
-                conversacion.currentagent
-              );
-  
-              //let myMensaje = await myChatkitLib.sendMessageFrom(
-              //  newmessage,
-              //  numtelusr,
-              //  numtelusr
-              //);
-              //console.log(myMensaje.message_id);
-              //let myRoom = await myChatkitLib.getRoomById(numtelusr);
-              //let cedula = myRoom.member_user_ids[1];
-              //console.log(cedula);
-              //let agente = await MyMongoLib.findAgenteCurrentUsrTelNum(numtelusr);
-  
-              //let conversacion = await myMongoLib.getConversacion(numtelusr);
-              //await postAgenteMensaje(
-              //  v1(),
-              //  numtelusr,
-              //  newmessage,
-              //  myMongoLib.fuentes.USUARIO,
-              //  conversacion.currentagent
-              //agente.cedula
-              //);
-              //currentResponse = "Le estamos comunicando con un operador";
-              break;
-              */
           default:
             currentResponse = currentResponse + " default " + mainMenu;
             break;
