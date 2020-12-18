@@ -409,7 +409,9 @@ let MyAtender = () => {
                 "na",
                 "573046636936",
                 numtelusrGupshup,
-                "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksysfichas/Solucion_Mesh_Linksys.pdf"
+                "https://res.cloudinary.com/https-tracktogo-co/image/upload/linksysfichas/Solucion_Mesh_Linksys.pdf",
+                "Solucion_Mesh_Linksys",
+                "Solucion_Mesh_Linksys.pdf"
               );
               await myMongoLib.postConversacionEmptyQueue(numtelusr);
               currentResponse = "*Documento enviado*";
