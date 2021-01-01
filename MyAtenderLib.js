@@ -75,7 +75,6 @@ let MyAtender = () => {
   ) => {
     var bandera = "";
     var pais = "";
-
     switch (indicativoCountry) {
       case "54":
         bandera = "AR";
