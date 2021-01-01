@@ -30,20 +30,73 @@ router.post("/sms", async (req, res) => {
         let usrPhoneNumber = "whatsapp:+" + req.body.payload.source;
         /*let indicativoCountry = req.body.payload.source.substr(0, 2);*/
         var indicativoCountry = "57";
-        if (req.body.payload.source.substr(0, 2) === "52") {
-          indicativoCountry = "52";
+
+        if (req.body.payload.source.substr(0, 2) === "54") {
+          indicativoCountry = "54";
         }
+
+        if (req.body.payload.source.substr(0, 3) === "501") {
+          indicativoCountry = "501";
+        }
+
+        if (req.body.payload.source.substr(0, 3) === "591") {
+          indicativoCountry = "591";
+        }
+
         if (req.body.payload.source.substr(0, 2) === "56") {
           indicativoCountry = "56";
         }
-        if (req.body.payload.source.substr(0, 3) === "502") {
-          indicativoCountry = "502";
-        }
+
         if (req.body.payload.source.substr(0, 3) === "506") {
           indicativoCountry = "506";
         }
+
+        if (req.body.payload.source.substr(0, 3) === "593") {
+          indicativoCountry = "593";
+        }
+
+        if (req.body.payload.source.substr(0, 3) === "503") {
+          indicativoCountry = "503";
+        }
+
+        if (req.body.payload.source.substr(0, 3) === "502") {
+          indicativoCountry = "502";
+        }
+
+        if (req.body.payload.source.substr(0, 3) === "504") {
+          indicativoCountry = "504";
+        }
+
+        if (req.body.payload.source.substr(0, 2) === "52") {
+          indicativoCountry = "52";
+        }
+
+        if (req.body.payload.source.substr(0, 3) === "505") {
+          indicativoCountry = "505";
+        }
+
         if (req.body.payload.source.substr(0, 3) === "507") {
           indicativoCountry = "507";
+        }
+
+        if (req.body.payload.source.substr(0, 3) === "595") {
+          indicativoCountry = "595";
+        }
+
+        if (req.body.payload.source.substr(0, 2) === "51") {
+          indicativoCountry = "51";
+        }
+
+        if (req.body.payload.source.substr(0, 3) === "598") {
+          indicativoCountry = "598";
+        }
+
+        if (req.body.payload.source.substr(0, 1) === "1") {
+          indicativoCountry = "1";
+        }
+
+        if (req.body.payload.source.substr(0, 2) === "58") {
+          indicativoCountry = "58";
         }
 
         let conversacion = {};

@@ -77,9 +77,17 @@ let MyAtender = () => {
     var pais = "";
 
     switch (indicativoCountry) {
-      case "52":
-        bandera = "MX";
-        pais = "Mexico ";
+      case "54":
+        bandera = "AR";
+        pais = "Argentina ";
+        break;
+      case "501":
+        bandera = "BZ";
+        pais = "Belice ";
+        break;
+      case "591":
+        bandera = "BO";
+        pais = "Bolivia ";
         break;
       case "56":
         bandera = "CL";
@@ -89,17 +97,57 @@ let MyAtender = () => {
         bandera = "CO";
         pais = "Colombia ";
         break;
-      case "502":
-        bandera = "GT";
-        pais = "Guatemala ";
-        break;
       case "506":
         bandera = "CR";
         pais = "Costa Rica ";
         break;
+      case "593":
+        bandera = "EC";
+        pais = "Ecuador ";
+        break;
+      case "503":
+        bandera = "SV";
+        pais = "El Salvador ";
+        break;
+      case "502":
+        bandera = "GT";
+        pais = "Guatemala ";
+        break;
+      case "504":
+        bandera = "HN";
+        pais = "Honduras ";
+        break;
+      case "52":
+        bandera = "MX";
+        pais = "Mexico ";
+        break;
+      case "505":
+        bandera = "NI";
+        pais = "Nicaragua ";
+        break;
       case "507":
         bandera = "PA";
         pais = "Panama ";
+        break;
+      case "595":
+        bandera = "PY";
+        pais = "Paraguay ";
+        break;
+      case "51":
+        bandera = "PE";
+        pais = "Perú ";
+        break;
+      case "598":
+        bandera = "UY";
+        pais = "Uruguay ";
+        break;
+      case "1":
+        bandera = "US";
+        pais = "USA ";
+        break;
+      case "58":
+        bandera = "VE";
+        pais = "Venezuela ";
         break;
     }
     let mainMenu =

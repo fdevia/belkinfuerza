@@ -36,7 +36,7 @@ const createOptions = (phone) => {
 let url =
   //process.env.PROD_MONGODB + "&w=majority" ||
   "mongodb+srv://fdevia:Colombia123@chatcenterdb-rinjl.mongodb.net/test?retryWrites=true&w=majority";
-const dbName = "chatCenterDB";
+const dbName = "linksysFuerzaDB";
 
 const MyMongoLib = function () {
   /*
