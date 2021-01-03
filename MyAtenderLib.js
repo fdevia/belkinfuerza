@@ -235,7 +235,7 @@ let MyAtender = () => {
     */
     let subMenuOpcion1 =
       "     " +
-      "*Seleccióne tipo de producto*" +
+      "*Seleccione tipo de producto*" +
       "\n\n" +
       "     " +
       String.fromCodePoint(0xe21c) +
