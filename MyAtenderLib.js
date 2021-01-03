@@ -174,7 +174,7 @@ let MyAtender = () => {
       "\n" +
       String.fromCodePoint(0xe21e) +
       " - Ficha técnica " +
-      String.fromCodePoint(0x1f64b) +
+      String.fromCodePoint(0x1f4d6) +
       //String.fromCodePoint(0x1f4c4)
       "\n" +
       String.fromCodePoint(0xe21f) +
