@@ -182,13 +182,13 @@ let MyAtender = () => {
       String.fromCodePoint(0x1f4c5) +
       "\n" +
       String.fromCodePoint(0xe220) +
-      " - Precio especial/Reserva de Oportunidad" +
+      " - Precio especial/Reserva de oportunidad" +
       String.fromCodePoint(0x1f4c4) +
       //String.fromCodePoint(0x1f50d) +
       //String.fromCodePoint(0x1f5e3) +
       "\n" +
       String.fromCodePoint(0xe221) +
-      " - Ultimas Tecnologías Linksys" +
+      " - Últimas tecnologías Linksys" +
       //String.fromCodePoint(0x1f4de);
       String.fromCodePoint(0x1f393) +
       "\n" +
@@ -235,7 +235,7 @@ let MyAtender = () => {
     */
     let subMenuOpcion1 =
       "     " +
-      "*Selecióne Tipo de Producto*" +
+      "*Seleccióne tipo de producto*" +
       "\n\n" +
       "     " +
       String.fromCodePoint(0xe21c) +
@@ -263,7 +263,7 @@ let MyAtender = () => {
       "\n" +
       "     " +
       String.fromCodePoint(0xe222) +
-      " - Menú Anterior";
+      " - Menú anterior";
     switch (sessionqueue.length) {
       case 0: //sessionqueue.length
         switch (parseInt(palabras[0])) {
