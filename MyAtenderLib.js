@@ -179,7 +179,7 @@ let MyAtender = () => {
       "\n" +
       String.fromCodePoint(0xe21f) +
       " - Calendario de eventos / Webinar " +
-      String.fromCodePoint(0x1f4cd) +
+      String.fromCodePoint(0x1f4c5) +
       "\n" +
       String.fromCodePoint(0xe220) +
       " - Precio especial/Reserva de Oportunidad" +
@@ -190,12 +190,12 @@ let MyAtender = () => {
       String.fromCodePoint(0xe221) +
       " - Ultimas Tecnologías Linksys" +
       //String.fromCodePoint(0x1f4de);
-      String.fromCodePoint(0x1f6e0) +
+      String.fromCodePoint(0x1f393) +
       "\n" +
       String.fromCodePoint(0xe222) +
       " - Soporte técnico" +
       //String.fromCodePoint(0x1f4de);
-      String.fromCodePoint(0x1f393);
+      String.fromCodePoint(0x1f6e0);
 
     /* let mainMenu =
       "Bienvenido a *Keralty*" +
