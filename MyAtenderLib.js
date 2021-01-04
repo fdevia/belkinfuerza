@@ -562,9 +562,17 @@ let MyAtender = () => {
             switch (palabras[0]) {
               case "1":
                 switch (bandera) {
-                  case "MX":
+                  case "AR":
                     currentResponse =
-                      "https://www.linksys.com/mx/c/routers-inalambricos";
+                      "https://www.linksys.com/ar/c/routers-inalambricos";
+                    break;
+                  case "BZ":
+                    currentResponse =
+                      "https://www.linksys.com/bz/c/routers-inalambricos";
+                    break;
+                  case "BO":
+                    currentResponse =
+                      "https://www.linksys.com/bo/c/routers-inalambricos";
                     break;
                   case "CL":
                     currentResponse =
@@ -574,25 +582,71 @@ let MyAtender = () => {
                     currentResponse =
                       "https://www.linksys.com/co/c/routers-inalambricos";
                     break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/routers-inalambricos";
+                    break;
+                  case "EC":
+                    currentResponse =
+                      "https://www.linksys.com/ec/c/routers-inalambricos";
+                    break;
+                  case "SV":
+                    currentResponse =
+                      "https://www.linksys.com/sv/c/routers-inalambricos";
+                    break;
                   case "GT":
                     currentResponse =
                       "https://www.linksys.com/gt/c/routers-inalambricos";
                     break;
-                  case "CR":
+                  case "HN":
                     currentResponse =
-                      "https://www.linksys.com/cr/c/routers-inalambricos";
+                      "https://www.linksys.com/hn/c/routers-inalambricos";
+                    break;
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/routers-inalambricos";
+                    break;
+                  case "NI":
+                    currentResponse =
+                      "https://www.linksys.com/ni/c/routers-inalambricos";
                     break;
                   case "PA":
                     currentResponse =
                       "https://www.linksys.com/pa/c/routers-inalambricos";
                     break;
+                  case "PY":
+                    currentResponse =
+                      "https://www.linksys.com/py/c/routers-inalambricos";
+                    break;
+                  case "PE":
+                    currentResponse =
+                      "https://www.linksys.com/pe/c/routers-inalambricos";
+                    break;
+                  case "UY":
+                    currentResponse =
+                      "https://www.linksys.com/uy/c/routers-inalambricos";
+                    break;
+                  case "US":
+                    currentResponse =
+                      "https://www.linksys.com/us/c/wireless-routers";
+                  case "VE":
+                    currentResponse =
+                      "https://www.linksys.com/ve/c/routers-inalambricos";
                 }
                 break;
               case "2":
                 switch (bandera) {
-                  case "MX":
+                  case "AR":
                     currentResponse =
-                      "https://www.linksys.com/mx/c/sistema-wi-fi-de-malla";
+                      "https://www.linksys.com/ar/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "BZ":
+                    currentResponse =
+                      "https://www.linksys.com/bz/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "BO":
+                    currentResponse =
+                      "https://www.linksys.com/bo/c/sistema-wi-fi-de-malla";
                     break;
                   case "CL":
                     currentResponse =
@@ -602,25 +656,71 @@ let MyAtender = () => {
                     currentResponse =
                       "https://www.linksys.com/co/c/sistema-wi-fi-de-malla";
                     break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "EC":
+                    currentResponse =
+                      "https://www.linksys.com/ec/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "SV":
+                    currentResponse =
+                      "https://www.linksys.com/sv/c/sistema-wi-fi-de-malla";
+                    break;
                   case "GT":
                     currentResponse =
                       "https://www.linksys.com/gt/c/sistema-wi-fi-de-malla";
                     break;
-                  case "CR":
+                  case "HN":
                     currentResponse =
-                      "https://www.linksys.com/cr/c/sistema-wi-fi-de-malla";
+                      "https://www.linksys.com/hn/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "NI":
+                    currentResponse =
+                      "https://www.linksys.com/ni/c/sistema-wi-fi-de-malla";
                     break;
                   case "PA":
                     currentResponse =
                       "https://www.linksys.com/pa/c/sistema-wi-fi-de-malla";
                     break;
+                  case "PY":
+                    currentResponse =
+                      "https://www.linksys.com/py/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "PE":
+                    currentResponse =
+                      "https://www.linksys.com/pe/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "UY":
+                    currentResponse =
+                      "https://www.linksys.com/uy/c/sistema-wi-fi-de-malla";
+                    break;
+                  case "US":
+                    currentResponse =
+                      "https://www.linksys.com/us/c/whole-home-mesh-wifi";
+                  case "VE":
+                    currentResponse =
+                      "https://www.linksys.com/ve/c/sistema-wi-fi-de-malla";
                 }
                 break;
               case "3":
                 switch (bandera) {
-                  case "MX":
+                  case "AR":
                     currentResponse =
-                      "https://www.linksys.com/mx/c/extensor-de-alcance";
+                      "https://www.linksys.com/ar/c/extensor-de-alcance";
+                    break;
+                  case "BZ":
+                    currentResponse =
+                      "https://www.linksys.com/bz/c/extensor-de-alcance";
+                    break;
+                  case "BO":
+                    currentResponse =
+                      "https://www.linksys.com/bo/c/extensor-de-alcance";
                     break;
                   case "CL":
                     currentResponse =
@@ -630,25 +730,71 @@ let MyAtender = () => {
                     currentResponse =
                       "https://www.linksys.com/co/c/extensor-de-alcance";
                     break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/extensor-de-alcance";
+                    break;
+                  case "EC":
+                    currentResponse =
+                      "https://www.linksys.com/ec/c/extensor-de-alcance";
+                    break;
+                  case "SV":
+                    currentResponse =
+                      "https://www.linksys.com/sv/c/extensor-de-alcance";
+                    break;
                   case "GT":
                     currentResponse =
                       "https://www.linksys.com/gt/c/extensor-de-alcance";
                     break;
-                  case "CR":
+                  case "HN":
                     currentResponse =
-                      "https://www.linksys.com/cr/c/extensor-de-alcance";
+                      "https://www.linksys.com/hn/c/extensor-de-alcance";
+                    break;
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/cl/c/extensor-de-alcance";
+                    break;
+                  case "NI":
+                    currentResponse =
+                      "https://www.linksys.com/ni/c/extensor-de-alcance";
                     break;
                   case "PA":
                     currentResponse =
                       "https://www.linksys.com/pa/c/extensor-de-alcance";
                     break;
+                  case "PY":
+                    currentResponse =
+                      "https://www.linksys.com/py/c/extensor-de-alcance";
+                    break;
+                  case "PE":
+                    currentResponse =
+                      "https://www.linksys.com/pe/c/extensor-de-alcance";
+                    break;
+                  case "UY":
+                    currentResponse =
+                      "https://www.linksys.com/uy/c/extensor-de-alcance";
+                    break;
+                  case "US":
+                    currentResponse =
+                      "https://www.linksys.com/us/c/wireless-wi-fi-range-extenders";
+                  case "VE":
+                    currentResponse =
+                      "https://www.linksys.com/ve/c/extensor-de-alcance";
                 }
                 break;
               case "4":
                 switch (bandera) {
-                  case "MX":
+                  case "AR":
                     currentResponse =
-                      "https://www.linksys.com/mx/c/adaptadores-de-red-usb-inalambricos";
+                      "https://www.linksys.com/ar/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "BZ":
+                    currentResponse =
+                      "https://www.linksys.com/bz/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "BO":
+                    currentResponse =
+                      "https://www.linksys.com/bo/c/adaptadores-de-red-usb-inalambricos";
                     break;
                   case "CL":
                     currentResponse =
@@ -658,25 +804,71 @@ let MyAtender = () => {
                     currentResponse =
                       "https://www.linksys.com/co/c/adaptadores-de-red-usb-inalambricos";
                     break;
+                  case "CR":
+                    currentResponse =
+                      "https://www.linksys.com/cr/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "EC":
+                    currentResponse =
+                      "https://www.linksys.com/ec/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "SV":
+                    currentResponse =
+                      "https://www.linksys.com/sv/c/adaptadores-de-red-usb-inalambricos";
+                    break;
                   case "GT":
                     currentResponse =
                       "https://www.linksys.com/gt/c/adaptadores-de-red-usb-inalambricos";
                     break;
-                  case "CR":
+                  case "HN":
                     currentResponse =
-                      "https://www.linksys.com/cr/c/adaptadores-de-red-usb-inalambricos";
+                      "https://www.linksys.com/hn/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "NI":
+                    currentResponse =
+                      "https://www.linksys.com/ni/c/adaptadores-de-red-usb-inalambricos";
                     break;
                   case "PA":
                     currentResponse =
                       "https://www.linksys.com/pa/c/adaptadores-de-red-usb-inalambricos";
                     break;
+                  case "PY":
+                    currentResponse =
+                      "https://www.linksys.com/py/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "PE":
+                    currentResponse =
+                      "https://www.linksys.com/pe/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "UY":
+                    currentResponse =
+                      "https://www.linksys.com/uy/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "US":
+                    currentResponse =
+                      "https://www.linksys.com/us/c/networking-accessories";
+                  case "VE":
+                    currentResponse =
+                      "https://www.linksys.com/ve/c/adaptadores-de-red-usb-inalambricos";
                 }
                 break;
               case "5":
                 switch (bandera) {
-                  case "MX":
+                  case "AR":
                     currentResponse =
-                      "https://www.linksys.com/mx/c/conmutadores-de-red";
+                      "https://www.linksys.com/ar/c/conmutadores-de-red";
+                    break;
+                  case "BZ":
+                    currentResponse =
+                      "https://www.linksys.com/bz/c/conmutadores-de-red";
+                    break;
+                  case "BO":
+                    currentResponse =
+                      "https://www.linksys.com/bo/c/conmutadores-de-red";
                     break;
                   case "CL":
                     currentResponse =
@@ -686,25 +878,71 @@ let MyAtender = () => {
                     currentResponse =
                       "https://www.linksys.com/co/c/conmutadores-de-red";
                     break;
-                  case "GT":
-                    currentResponse =
-                      "https://www.linksys.com/gt/c/conmutadores-de-red";
-                    break;
                   case "CR":
                     currentResponse =
                       "https://www.linksys.com/cr/c/conmutadores-de-red";
+                    break;
+                  case "EC":
+                    currentResponse =
+                      "https://www.linksys.com/ec/c/conmutadores-de-red";
+                    break;
+                  case "SV":
+                    currentResponse =
+                      "https://www.linksys.com/sv/c/conmutadores-de-red";
+                    break;
+                  case "GT":
+                    currentResponse =
+                      "https://www.linksys.com/gt/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "HN":
+                    currentResponse =
+                      "https://www.linksys.com/hn/c/conmutadores-de-red";
+                    break;
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/conmutadores-de-red";
+                    break;
+                  case "NI":
+                    currentResponse =
+                      "https://www.linksys.com/ni/c/conmutadores-de-red";
                     break;
                   case "PA":
                     currentResponse =
                       "https://www.linksys.com/pa/c/conmutadores-de-red";
                     break;
+                  case "PY":
+                    currentResponse =
+                      "https://www.linksys.com/py/c/conmutadores-de-red";
+                    break;
+                  case "PE":
+                    currentResponse =
+                      "https://www.linksys.com/pe/c/conmutadores-de-red";
+                    break;
+                  case "UY":
+                    currentResponse =
+                      "https://www.linksys.com/uy/c/conmutadores-de-red";
+                    break;
+                  case "US":
+                    currentResponse =
+                      "https://www.linksys.com/us/c/network-switches";
+                  case "VE":
+                    currentResponse =
+                      "https://www.linksys.com/ve/c/conmutadores-de-red";
                 }
                 break;
-              case "6":
+              case "6": //ACCESS POINT
                 switch (bandera) {
-                  case "MX":
+                  case "AR":
                     currentResponse =
-                      "https://www.linksys.com/mx/c/conmutadores-de-red";
+                      "https://www.linksys.com/ar/c/conmutadores-de-red";
+                    break;
+                  case "BZ":
+                    currentResponse =
+                      "https://www.linksys.com/bz/c/conmutadores-de-red";
+                    break;
+                  case "BO":
+                    currentResponse =
+                      "https://www.linksys.com/bo/c/conmutadores-de-red";
                     break;
                   case "CL":
                     currentResponse =
@@ -714,18 +952,56 @@ let MyAtender = () => {
                     currentResponse =
                       "https://www.linksys.com/co/c/conmutadores-de-red";
                     break;
-                  case "GT":
-                    currentResponse =
-                      "https://www.linksys.com/gt/c/conmutadores-de-red";
-                    break;
                   case "CR":
                     currentResponse =
                       "https://www.linksys.com/cr/c/conmutadores-de-red";
+                    break;
+                  case "EC":
+                    currentResponse =
+                      "https://www.linksys.com/ec/c/conmutadores-de-red";
+                    break;
+                  case "SV":
+                    currentResponse =
+                      "https://www.linksys.com/sv/c/conmutadores-de-red";
+                    break;
+                  case "GT":
+                    currentResponse =
+                      "https://www.linksys.com/gt/c/adaptadores-de-red-usb-inalambricos";
+                    break;
+                  case "HN":
+                    currentResponse =
+                      "https://www.linksys.com/hn/c/conmutadores-de-red";
+                    break;
+                  case "MX":
+                    currentResponse =
+                      "https://www.linksys.com/mx/c/conmutadores-de-red";
+                    break;
+                  case "NI":
+                    currentResponse =
+                      "https://www.linksys.com/ni/c/conmutadores-de-red";
                     break;
                   case "PA":
                     currentResponse =
                       "https://www.linksys.com/pa/c/conmutadores-de-red";
                     break;
+                  case "PY":
+                    currentResponse =
+                      "https://www.linksys.com/py/c/conmutadores-de-red";
+                    break;
+                  case "PE":
+                    currentResponse =
+                      "https://www.linksys.com/pe/c/conmutadores-de-red";
+                    break;
+                  case "UY":
+                    currentResponse =
+                      "https://www.linksys.com/uy/c/conmutadores-de-red";
+                    break;
+                  case "US":
+                    currentResponse =
+                      "https://www.linksys.com/us/c/network-switches";
+                  case "VE":
+                    currentResponse =
+                      "https://www.linksys.com/ve/c/conmutadores-de-red";
                 }
                 break;
               case "7":
