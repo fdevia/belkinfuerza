@@ -337,6 +337,8 @@ let MyAtender = () => {
             break;
             */
           case 4:
+            currentResponse = "https://form.jotform.com/202775700733050";
+            /*
             switch (bandera) {
               case "MX":
                 currentResponse = "https://form.jotform.com/202775700733050";
@@ -357,6 +359,7 @@ let MyAtender = () => {
                 currentResponse = "https://form.jotform.com/202775700733050";
                 break;
             }
+            */
             break;
 
           /*
@@ -477,24 +480,59 @@ let MyAtender = () => {
             break;
           case 7:
             switch (bandera) {
-              case "MX":
-                currentResponse = "https://www.linksys.com/mx/support/";
+              case "AR":
+                currentResponse = "https://www.linksys.com/ar/support";
+                break;
+              case "BZ":
+                currentResponse = "https://www.linksys.com/bz/support";
+                break;
+              case "BO":
+                currentResponse = "https://www.linksys.com/bo/support";
                 break;
               case "CL":
-                currentResponse = "https://www.linksys.com/cl/support/";
+                currentResponse = "https://www.linksys.com/cl/support";
                 break;
               case "CO":
-                currentResponse = "https://www.linksys.com/co/support/";
-                break;
-              case "GT":
-                currentResponse = "https://www.linksys.com/gt/support/";
+                currentResponse = "https://www.linksys.com/co/support";
                 break;
               case "CR":
-                currentResponse = "https://www.linksys.com/cr/support/";
+                currentResponse = "https://www.linksys.com/cr/support";
+                break;
+              case "EC":
+                currentResponse = "https://www.linksys.com/ec/support";
+                break;
+              case "SV":
+                currentResponse = "https://www.linksys.com/sv/support";
+                break;
+              case "GT":
+                currentResponse = "https://www.linksys.com/ec/support";
+                break;
+              case "HN":
+                currentResponse = "https://www.linksys.com/hn/support";
+                break;
+              case "MX":
+                currentResponse = "https://www.linksys.com/mx/support";
+                break;
+              case "NI":
+                currentResponse = "https://www.linksys.com/ni/support";
                 break;
               case "PA":
-                currentResponse = "https://www.linksys.com/pa/support/";
+                currentResponse = "https://www.linksys.com/pa/support";
                 break;
+              case "PY":
+                currentResponse = "https://www.linksys.com/py/support";
+                break;
+              case "PE":
+                currentResponse = "https://www.linksys.com/pe/support";
+                break;
+              case "UY":
+                currentResponse = "https://www.linksys.com/uy/support";
+                break;
+              case "US":
+                currentResponse =
+                  "https://www.linksys.com/us/support-article?articleNum=155198";
+              case "VE":
+                currentResponse = "https://www.linksys.com/ve/support";
             }
             break;
           default:
