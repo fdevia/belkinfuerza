@@ -934,74 +934,74 @@ let MyAtender = () => {
                 switch (bandera) {
                   case "AR":
                     currentResponse =
-                      "https://www.linksys.com/ar/c/conmutadores-de-red";
+                      "https://www.linksys.com/ar/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "BZ":
                     currentResponse =
-                      "https://www.linksys.com/bz/c/conmutadores-de-red";
+                      "https://www.linksys.com/bz/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "BO":
                     currentResponse =
-                      "https://www.linksys.com/bo/c/conmutadores-de-red";
+                      "https://www.linksys.com/bo/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "CL":
                     currentResponse =
-                      "https://www.linksys.com/cl/c/conmutadores-de-red";
+                      "https://www.linksys.com/cl/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "CO":
                     currentResponse =
-                      "https://www.linksys.com/co/c/conmutadores-de-red";
+                      "https://www.linksys.com/co/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "CR":
                     currentResponse =
-                      "https://www.linksys.com/cr/c/conmutadores-de-red";
+                      "https://www.linksys.com/cr/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "EC":
                     currentResponse =
-                      "https://www.linksys.com/ec/c/conmutadores-de-red";
+                      "https://www.linksys.com/ec/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "SV":
                     currentResponse =
-                      "https://www.linksys.com/sv/c/conmutadores-de-red";
+                      "https://www.linksys.com/sv/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "GT":
                     currentResponse =
-                      "https://www.linksys.com/gt/c/adaptadores-de-red-usb-inalambricos";
+                      "https://www.linksys.com/gt/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "HN":
                     currentResponse =
-                      "https://www.linksys.com/hn/c/conmutadores-de-red";
+                      "https://www.linksys.com/hn/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "MX":
                     currentResponse =
-                      "https://www.linksys.com/mx/c/conmutadores-de-red";
+                      "https://www.linksys.com/mx/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "NI":
                     currentResponse =
-                      "https://www.linksys.com/ni/c/conmutadores-de-red";
+                      "https://www.linksys.com/ni/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "PA":
                     currentResponse =
-                      "https://www.linksys.com/pa/c/conmutadores-de-red";
+                      "https://www.linksys.com/pa/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "PY":
                     currentResponse =
-                      "https://www.linksys.com/py/c/conmutadores-de-red";
+                      "https://www.linksys.com/py/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "PE":
                     currentResponse =
-                      "https://www.linksys.com/pe/c/conmutadores-de-red";
+                      "https://www.linksys.com/pe/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "UY":
                     currentResponse =
-                      "https://www.linksys.com/uy/c/conmutadores-de-red";
+                      "https://www.linksys.com/uy/c/puntos-de-acceso-inalambricos-para-empresas";
                     break;
                   case "US":
                     currentResponse =
-                      "https://www.linksys.com/us/c/network-switches";
+                      "https://www.linksys.com/us/c/business-wireless-access-points";
                   case "VE":
                     currentResponse =
-                      "https://www.linksys.com/ve/c/conmutadores-de-red";
+                      "https://www.linksys.com/ve/c/puntos-de-acceso-inalambricos-para-empresas";
                 }
                 break;
               case "7":
