@@ -111,15 +111,15 @@ router.post("/sms", async (req, res) => {
           console.log(e);
         }
 
-        if (conversacion.sessionQueue.length === 0) {
-          conversacion = await myMongoLib.postConversacionMensaje(
-            v1() + "gupshupA",
-            usrPhoneNumber,
-            newMessage,
-            myMongoLib.fuentes.USUARIO,
-            ""
-          );
-        }
+        /*if (conversacion.sessionQueue.length === 0) {*/
+        conversacion = await myMongoLib.postConversacionMensaje(
+          v1() + "gupshupA",
+          usrPhoneNumber,
+          newMessage,
+          myMongoLib.fuentes.USUARIO,
+          ""
+        );
+        /*}*/
 
         let respuesta = await myAtenderLib.atender(
           usrPhoneNumber,
