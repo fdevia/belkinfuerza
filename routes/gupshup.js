@@ -132,15 +132,15 @@ router.post("/sms", async (req, res) => {
 
         conversacion = await myMongoLib.getConversacion(usrPhoneNumber);
 
-        if (conversacion.sessionQueue.length === 0) {
-          await myMongoLib.postConversacionMensaje(
-            v1() + "gupshupB",
-            usrPhoneNumber,
-            respuesta,
-            myMongoLib.fuentes.BOT,
-            ""
-          );
-        }
+        /*if (conversacion.sessionQueue.length === 0) {*/
+        await myMongoLib.postConversacionMensaje(
+          v1() + "gupshupB",
+          usrPhoneNumber,
+          respuesta,
+          myMongoLib.fuentes.BOT,
+          ""
+        );
+        /*}*/
         res.send(respuesta);
         break;
       case "location":
