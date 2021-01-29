@@ -531,8 +531,10 @@ let MyAtender = () => {
               case "US":
                 currentResponse =
                   "https://www.linksys.com/us/support-article?articleNum=155198";
+                break;
               case "VE":
                 currentResponse = "https://www.linksys.com/ve/support";
+                break;
             }
             break;
           default:
@@ -629,9 +631,11 @@ let MyAtender = () => {
                   case "US":
                     currentResponse =
                       "https://www.linksys.com/us/c/wireless-routers";
+                    break;
                   case "VE":
                     currentResponse =
                       "https://www.linksys.com/ve/c/routers-inalambricos";
+                    break;
                 }
                 break;
               case "2":
@@ -703,9 +707,11 @@ let MyAtender = () => {
                   case "US":
                     currentResponse =
                       "https://www.linksys.com/us/c/whole-home-mesh-wifi";
+                    break;
                   case "VE":
                     currentResponse =
                       "https://www.linksys.com/ve/c/sistema-wi-fi-de-malla";
+                    break;
                 }
                 break;
               case "3":
@@ -777,9 +783,11 @@ let MyAtender = () => {
                   case "US":
                     currentResponse =
                       "https://www.linksys.com/us/c/wireless-wi-fi-range-extenders";
+                    break;
                   case "VE":
                     currentResponse =
                       "https://www.linksys.com/ve/c/extensor-de-alcance";
+                    break;
                 }
                 break;
               case "4":
@@ -851,9 +859,11 @@ let MyAtender = () => {
                   case "US":
                     currentResponse =
                       "https://www.linksys.com/us/c/networking-accessories";
+                    break;
                   case "VE":
                     currentResponse =
                       "https://www.linksys.com/ve/c/adaptadores-de-red-usb-inalambricos";
+                    break;
                 }
                 break;
               case "5":
@@ -925,9 +935,11 @@ let MyAtender = () => {
                   case "US":
                     currentResponse =
                       "https://www.linksys.com/us/c/network-switches";
+                    break;
                   case "VE":
                     currentResponse =
                       "https://www.linksys.com/ve/c/conmutadores-de-red";
+                    break;
                 }
                 break;
               case "6": //ACCESS POINT
@@ -999,9 +1011,11 @@ let MyAtender = () => {
                   case "US":
                     currentResponse =
                       "https://www.linksys.com/us/c/business-wireless-access-points";
+                    break;
                   case "VE":
                     currentResponse =
                       "https://www.linksys.com/ve/c/puntos-de-acceso-inalambricos-para-empresas";
+                    break;
                 }
                 break;
               case "7":
